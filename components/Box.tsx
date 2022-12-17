@@ -6,7 +6,7 @@ import Title from "./Title";
 // @ts-ignore
 const Box = ({children}) => {
     return (
-        <div className="border-2">
+        <div className="border-2 p-4">
             {children}
         </div>
     )

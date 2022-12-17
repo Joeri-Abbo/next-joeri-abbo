@@ -8,14 +8,21 @@ const ContentWithImage = ({children}) => {
     return (
         <div className="grid grid-cols-2 gap-4 flex-col-reverse mt-4">
             <Box>
-                <Title>
-                    {children}
-                </Title>
-                {children}
+                <div className="flex h-full">
+                    <div className="mt-auto mb-auto">
+
+                        <Title>
+                            {children}
+                        </Title>
+                        <div>
+                            {children}
+                        </div>
+                    </div>
+                </div>
             </Box>
             <Box>
-                <div className="justify-end">
-                    <img src="/hero.jpeg" className="rounded-full object-cover h-80 w-80 object-left	"/>
+                <div className="flex h-full justify-end">
+                    <img src="/hero.jpeg" className="rounded-full object-cover h-80 w-80 object-left"/>
                 </div>
             </Box>
         </div>
