@@ -28,32 +28,36 @@ export default function Home() {
                     </ContentWithImage>
                     <Col4>
                         <Box>
-                            <div>
-                                wack
-                            </div>
-                        </Box>
-                        <Box>
-                            <Image src="https://source.unsplash.com/random/900%C3%97700/?food" className="object-cover h-32 w-full" alt="Me" width="600" height="600"/>
+                            <Image src="https://source.unsplash.com/random/900%C3%97700/?programming" className="object-cover h-32 w-full" alt="Me" width="600" height="600"/>
 
                             <div>
                                 wack
                             </div>
                         </Box>
                         <Box>
-                            <Image src="https://source.unsplash.com/random/900%C3%97700/?food" className="object-cover h-32 w-full" alt="Me" width="600" height="600"/>
+                            <Image src="https://source.unsplash.com/random/900%C3%97700/?java" className="object-cover h-32 w-full" alt="Me" width="600" height="600"/>
 
                             <div>
                                 wack
                             </div>
                         </Box>
                         <Box>
-                            <Image src="https://source.unsplash.com/random/900%C3%97700/?food" className="object-cover h-32 w-full" alt="Me" width="600" height="600"/>
+                            <Image src="https://source.unsplash.com/random/900%C3%97700/?python" className="object-cover h-32 w-full" alt="Me" width="600" height="600"/>
+
+                            <div>
+                                wack
+                            </div>
+                        </Box>
+                        <Box>
+                            <Image src="https://source.unsplash.com/random/900%C3%97700/?rust" className="object-cover h-32 w-full" alt="Me" width="600" height="600"/>
 
                             <div>
                                 Een title
                             </div>
                         </Box>
                         <Box>
+                            <Image src="https://source.unsplash.com/random/900%C3%97700/?frost" className="object-cover h-32 w-full" alt="Me" width="600" height="600"/>
+
                             <div>
                                 wack
                             </div>

@@ -19,7 +19,7 @@ const Header = () => {
         if (!mounted) return null;
 
         const currentTheme = theme === "system" ? systemTheme : theme;
-        const classNames = "w-5 h-5 hover:scale-125 "
+        const classNames = "w-5 h-5 hover:scale-125 transform-gpu "
         const colorClass = currentTheme === dark ? "text-yellow-500" : "text-gray-900"
 
         if (currentTheme === dark) {

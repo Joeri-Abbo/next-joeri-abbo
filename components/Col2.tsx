@@ -3,7 +3,7 @@ type Props = {
 };
 const Col2 = (props: Props) => {
     return (
-        <div className="grid grid-cols-2 gap-4 flex-col-reverse mt-4">
+        <div className="grid grid-cols-1 gap-4 flex-col-reverse mt-4 lg:grid-cols-2">
             {props.children}
         </div>
     )
