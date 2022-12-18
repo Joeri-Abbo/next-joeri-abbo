@@ -1,11 +1,12 @@
 type Props = {
     children: JSX.Element[] | JSX.Element | string
+
 };
-const Box = (props: Props) => {
+const Col4 = (props: Props) => {
     return (
-        <div className="border-2 p-4">
+        <div className="grid grid-cols-4 gap-4 flex-col-reverse mt-4">
             {props.children}
         </div>
     )
 }
-export default Box;
+export default Col4;

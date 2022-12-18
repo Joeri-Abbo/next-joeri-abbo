@@ -1,12 +1,10 @@
-// @ts-ignore
-import {LightningBoltIcon} from "@heroicons/react/solid";
-import Link from "next/link";
-
-// @ts-ignore
-const Title = ({children}) => {
+type Props = {
+    children: JSX.Element[] | JSX.Element
+};
+const Title = (props: Props) => {
     return (
         <div className="text-2xl">
-            {children}
+            {props.children}
         </div>
     )
 }
