@@ -7,7 +7,7 @@ const ContentWithImage = (props: Props) => {
         <div className="text-6xl italic text-center my-8">
             `{props.children}`
             {props.name !== null &&
-                <span className="text-xl block">
+                <span className="text-xs block">
                     {props.name}
                 </span>
             }

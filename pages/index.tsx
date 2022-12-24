@@ -7,6 +7,8 @@ import Col4 from "../components/Col4";
 import Box from "../components/Box";
 import Image from "next/image";
 import Quote from "../components/Quote";
+import CallToAction from "../components/CallToAction";
+import UnderlineLink from "../components/UnderlineLink";
 
 export default function Home() {
     return (
@@ -69,6 +71,11 @@ export default function Home() {
                             </div>
                         </Box>
                     </Col4>
+                    <CallToAction title="Koffietje doen?">
+                        <p>
+                            Stuur mij dan een brichtje op <UnderlineLink href="https://www.linkedin.com/in/joeri-abbo-43a457144/">Linkedin</UnderlineLink>
+                        </p>
+                    </CallToAction>
                     <ContentWithImage>
                         Hello world
                     </ContentWithImage>
