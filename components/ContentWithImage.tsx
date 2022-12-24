@@ -5,7 +5,10 @@ import Button from "./Button";
 import Socials from "./Socials";
 import Col2 from "./Col2";
 import Image from "next/image";
-// @ts-ignore
+
+type Props = {
+    children: JSX.Element[] | JSX.Element | string
+};
 const ContentWithImage = (props: Props) => {
     return (
         <Col2>
@@ -51,7 +54,8 @@ const ContentWithImage = (props: Props) => {
             </Box>
             <Box>
                 <div className="flex h-full justify-end">
-                    <Image src="/hero.jpeg" className="rounded-full object-cover h-80 w-80 object-left" alt="Me" width="600" height="600"/>
+                    <Image src="/hero.jpeg" className="rounded-full object-cover h-80 w-80 object-left" alt="Me"
+                           width="600" height="600"/>
                 </div>
             </Box>
         </Col2>
