@@ -28,7 +28,7 @@ const TimelineWorkItem = (props: Props) => {
             <Text>
                 {props.children}
             </Text>
-            {undefined != props.downloadHref && <DownloadButton href={props.downloadHref}/>}
+            <DownloadButton href={props.downloadHref}/>
         </ItemWrapper>
     )
 }
