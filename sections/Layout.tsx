@@ -17,10 +17,10 @@ const Layout = ({children}) => {
 
             {/*TODO remove after january*/}
             {/* eslint-disable-next-line @next/next/no-sync-scripts */}
-            <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
-            <script>
-                new Snowflakes();
-            </script>
+            {/*<script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>*/}
+            {/*<script>*/}
+            {/*    new Snowflakes();*/}
+            {/*</script>*/}
             <Footer/>
         </>
     );

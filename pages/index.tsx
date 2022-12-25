@@ -9,6 +9,10 @@ import Image from "next/image";
 import Quote from "../components/Quote";
 import CallToAction from "../components/CallToAction";
 import UnderlineLink from "../components/UnderlineLink";
+import Timeline from "../components/Timeline";
+import TimelineCourseItem from "../components/TimelineCourseItem";
+import TimelineWorkItem from "../components/TimelineWorkItem";
+import TimelineFeatureItem from "../components/TimelineFeatureItem";
 
 export default function Home() {
     return (
@@ -29,6 +33,16 @@ export default function Home() {
                     <Quote name="Gene Kranz">
                         Failure is not an option
                     </Quote>
+                    <Timeline>
+                        <TimelineCourseItem>
+                        </TimelineCourseItem>
+                        <TimelineWorkItem>
+                        </TimelineWorkItem>
+                        <TimelineWorkItem>
+                        </TimelineWorkItem>
+                        <TimelineFeatureItem>
+                        </TimelineFeatureItem>
+                    </Timeline>
                     <Col4>
                         <Box>
                             <Image src="https://source.unsplash.com/random/900%C3%97700/?programming"
@@ -73,12 +87,10 @@ export default function Home() {
                     </Col4>
                     <CallToAction title="Koffietje doen?">
                         <p>
-                            Stuur mij dan een brichtje op <UnderlineLink href="https://www.linkedin.com/in/joeri-abbo-43a457144/">Linkedin</UnderlineLink>
+                            Stuur mij dan een brichtje op <UnderlineLink
+                            href="https://www.linkedin.com/in/joeri-abbo-43a457144/">Linkedin</UnderlineLink>
                         </p>
                     </CallToAction>
-                    <ContentWithImage>
-                        Hello world
-                    </ContentWithImage>
                     <ScrollableAnchor id="ContactMe">
                         Your content here
                     </ScrollableAnchor>
