@@ -1,7 +1,9 @@
 import Logo from "../components/logo";
 import {useTheme} from "next-themes";
 import {useState, useEffect} from "react";
-import {SunIcon, MoonIcon} from "@heroicons/react/24/solid";
+import SunIcon from "../public/icons/sun-bright-solid.svg"
+import MoonIcon from "../public/icons/moon-solid.svg"
+
 
 const Header = () => {
 
@@ -20,7 +22,7 @@ const Header = () => {
 
         const currentTheme = theme === "system" ? systemTheme : theme;
         const classNames = "w-5 h-5 hover:scale-125 transform-gpu "
-        const colorClass = currentTheme === dark ? "text-yellow-500" : "text-gray-900"
+        const colorClass = currentTheme === dark ? "fill-yellow-500" : "fill-gray-900"
 
         if (currentTheme === dark) {
             return (
