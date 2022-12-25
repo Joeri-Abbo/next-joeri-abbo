@@ -1,13 +1,22 @@
 import Facebook from "../public/icons/facebook.svg"
 import Envelope from "../public/icons/circle-envelope-solid.svg"
 import Linkedin from "../public/icons/linkedin-in.svg"
+import Link from "next/link";
 
 const Socials = () => {
+    let iconClass = "w-5 h-5 7hover:scale-125 transform-gpu fill-blue-500"
     return (
-        <div className="">
-            <Facebook className="w-5 h-5 hover:scale-125 transform-gpu text-gray-900"/>
-            <Envelope className="w-5 h-5 hover:scale-125 transform-gpu text-gray-900"/>
-            <Linkedin className="w-5 h-5 hover:scale-125 transform-gpu text-gray-900"/>
+        <div className=" flex gap-2.5 my-2">
+            <Link href="https://www.facebook.com/joeri.abbo.1" target="_blank">
+                <Facebook className={iconClass}/>
+            </Link>
+            <Link href={`mailto:${"joeriabbo@hotmail.com"}?subject=${"Contact" || ""}&body=${"Hallo" || ""}`}
+                  target="_blank">
+                <Envelope className={iconClass}/>
+            </Link>
+            <Link href="https://www.linkedin.com/in/joeri-abbo-43a457144/" target="_blank">
+                <Linkedin className={iconClass}/>
+            </Link>
         </div>
     )
 }

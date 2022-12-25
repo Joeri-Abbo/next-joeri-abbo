@@ -3,6 +3,7 @@ import {useTheme} from "next-themes";
 import {useState, useEffect} from "react";
 import SunIcon from "../public/icons/sun-bright-solid.svg"
 import MoonIcon from "../public/icons/moon-solid.svg"
+import Socials from "../components/Socials";
 
 
 const Header = () => {
@@ -21,7 +22,7 @@ const Header = () => {
         if (!mounted) return null;
 
         const currentTheme = theme === "system" ? systemTheme : theme;
-        const classNames = "w-5 h-5 hover:scale-125 transform-gpu "
+        const classNames = "my-2 w-6 h-6 hover:scale-125 transform-gpu "
         const colorClass = currentTheme === dark ? "fill-yellow-500" : "fill-gray-900"
 
         if (currentTheme === dark) {
@@ -40,7 +41,10 @@ const Header = () => {
             className="h-15 shadow-sm sticky top-0 z-30 w-full px-2 py-4 sm:px-4 shadow-xl relative dark:bg-black bg-white ">
             <div className="px-2 sm:px-3 py-2 flex justify-between items-center z-100">
                 <Logo/>
-                {renderThemeChanger()}
+                <div className="flex gap-6 items-center">
+                    <Socials/>
+                    {renderThemeChanger()}
+                </div>
             </div>
         </header>
     );
