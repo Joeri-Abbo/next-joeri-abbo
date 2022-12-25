@@ -9,10 +9,10 @@ import Image from "next/image";
 import Quote from "../components/Quote";
 import CallToAction from "../components/CallToAction";
 import UnderlineLink from "../components/UnderlineLink";
-import Timeline from "../components/Timeline";
-import TimelineCourseItem from "../components/TimelineCourseItem";
-import TimelineWorkItem from "../components/TimelineWorkItem";
-import TimelineFeatureItem from "../components/TimelineFeatureItem";
+import Timeline from "../components/Timeline/Timeline";
+import CourseItem from "../components/Timeline/CourseItem";
+import WorkItem from "../components/Timeline/WorkItem";
+import FeatureItem from "../components/Timeline/FeatureItem";
 
 export default function Home() {
     return (
@@ -34,14 +34,15 @@ export default function Home() {
                         Failure is not an option
                     </Quote>
                     <Timeline>
-                        <TimelineCourseItem>
-                        </TimelineCourseItem>
-                        <TimelineWorkItem>
-                        </TimelineWorkItem>
-                        <TimelineWorkItem>
-                        </TimelineWorkItem>
-                        <TimelineFeatureItem>
-                        </TimelineFeatureItem>
+                        <CourseItem time="Vandaag" title="AWS course"  tags={["1.0.2"]} downloadHref="#">
+                            Verschillende onderdelen
+                        </CourseItem>
+                        <WorkItem time="Vandaag" title="Gestart bij Tracefy"  tags={["1.0.1"]}>
+                            Verschillende onderdelen
+                        </WorkItem>
+                        <FeatureItem downloadHref="#" time="Vandaag" title="Start DevOps Bootcamp | Tech world met Nana" tags={["feature/devops", "latest"]}>
+                            Verschillende onderdelen
+                        </FeatureItem>
                     </Timeline>
                     <Col4>
                         <Box>

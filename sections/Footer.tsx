@@ -1,5 +1,8 @@
 import ArrowUp from "../public/icons/circle-arrow-up-solid.svg"
+import MarsRover from "../public/icons/mars-rover.svg"
 import Link from "next/link";
+import styles from '../styles/Footer.module.css'
+
 
 const Footer = () => {
     return (
@@ -13,6 +16,9 @@ const Footer = () => {
                 </span>   &copy; {new Date().getFullYear()} All
                 Rights Reserved
             </div>
+
+            <MarsRover
+                       className={styles.mars_rover + " w-8 h-8 fill-blue-500 dark:fill-white absolute"}/>
         </footer>
     );
 };

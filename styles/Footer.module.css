@@ -1,0 +1,51 @@
+.mars_rover {
+    left: -50px;
+    position: absolute;
+
+}
+
+@keyframes driving {
+    0% {
+        left: -50px;
+        transform: scaleX(1)
+    }
+    50% {
+        left: 101%;
+        transform: scaleX(1)
+    }
+    51% {
+        left: 101%;
+        transform: scaleX(-1)
+    }
+    100% {
+        left: -50px;
+        transform: scaleX(-1)
+    }
+}
+
+@-webkit-keyframes driving {
+    0% {
+        left: -50px;
+        transform: scaleX(1)
+    }
+    50% {
+        left: 101%;
+        transform: scaleX(1)
+    }
+    51% {
+        left: 101%;
+        transform: scaleX(-1)
+    }
+    100% {
+        left: -50px;
+        transform: scaleX(-1)
+    }
+}
+
+.mars_rover {
+    animation-name: driving;
+    animation-duration: 30s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
