@@ -1,9 +1,6 @@
-import Sparkles from "../../public/icons/sparkles-solid.svg";
-
 type Props = {
     children: JSX.Element[] | JSX.Element | string
 };
-
 const IconWrapper = (props: Props) => {
     return (
         <span

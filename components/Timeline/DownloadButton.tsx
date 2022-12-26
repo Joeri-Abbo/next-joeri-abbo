@@ -5,7 +5,6 @@ type Props = {
     children?: JSX.Element[] | JSX.Element | string
     href?: string | undefined
 };
-
 const DownloadButton = (props: Props) => {
     let iconClass = "w-3.5 h-3.5  fill-blue-500 mr-2"
     if (props.href === undefined) {

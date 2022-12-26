@@ -17,8 +17,7 @@ const Footer = () => {
                 Rights Reserved
             </div>
 
-            <MarsRover
-                       className={styles.mars_rover + " w-8 h-8 fill-blue-500 dark:fill-white absolute"}/>
+            <MarsRover className={styles.mars_rover + " w-8 h-8 fill-blue-500 dark:fill-white absolute"}/>
         </footer>
     );
 };

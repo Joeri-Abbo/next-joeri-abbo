@@ -13,6 +13,7 @@ import Timeline from "../components/Timeline/Timeline";
 import CourseItem from "../components/Timeline/CourseItem";
 import WorkItem from "../components/Timeline/WorkItem";
 import FeatureItem from "../components/Timeline/FeatureItem";
+import ScrollDown from "../components/ScrollDown";
 
 export default function Home() {
     return (
@@ -30,9 +31,12 @@ export default function Home() {
                     <ContentWithImage>
                         Hello world
                     </ContentWithImage>
-                    <Quote name="Gene Kranz">
-                        Failure is not an option
-                    </Quote>
+                    <ScrollDown href="/#quote"/>
+                    <ScrollableAnchor id="quote">
+                        <Quote name="Gene Kranz">
+                            Failure is not an option
+                        </Quote>
+                    </ScrollableAnchor>
                     <Timeline>
                         <CourseItem time="Vandaag" title="AWS course"  tags={["1.0.2"]} downloadHref="#">
                             Verschillende onderdelen

@@ -3,10 +3,10 @@ import {useRouter} from "next/router";
 
 type Props = {
     id: string;
-    children: string
+    children: JSX.Element[] | JSX.Element | string
 };
 
-const Title = (props: Props) => {
+const ScrollableAnchor = (props: Props) => {
     const router = useRouter();
     const hashMatchRegex = useRef(new RegExp(/(?<=#)\w*/));
     const scrollTargetElementRef = useRef<HTMLDivElement | null>(null);
@@ -24,4 +24,4 @@ const Title = (props: Props) => {
         </div>
     );
 }
-export default Title;
+export default ScrollableAnchor;
