@@ -26,8 +26,6 @@ export default function Home() {
                     <link rel="icon" href="/favicon.ico"/>
                 </Head>
                 <main className="">
-                    <Link href="/#ContactMe">Contact Me</Link>
-
                     <ContentWithImage>
                         Hello world
                     </ContentWithImage>
@@ -52,7 +50,6 @@ export default function Home() {
                         <Box>
                             <Image src="https://source.unsplash.com/random/900%C3%97700/?programming"
                                    className="object-cover h-32 w-full" alt="Me" width="600" height="600"/>
-
                             <div>
                                 wack
                             </div>
