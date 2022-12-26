@@ -1,4 +1,4 @@
-import Logo from "../components/logo";
+import Logo from "../components/Logo";
 import {useTheme} from "next-themes";
 import {useState, useEffect} from "react";
 import SunIcon from "../public/icons/sun-bright-solid.svg"
