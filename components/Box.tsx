@@ -3,7 +3,7 @@ type Props = {
 };
 const Box = (props: Props) => {
     return (
-        <div className="border-2 p-4">
+        <div className="p-4">
             {props.children}
         </div>
     )
