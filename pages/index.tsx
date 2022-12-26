@@ -47,7 +47,7 @@ export default function Home() {
                     <Projects src="./api/projects" amount={10}/>
                     <CallToAction title="Koffietje doen?">
                         <p>
-                            Stuur mij dan een brichtje op <UnderlineLink
+                            Stuur mij dan een berichtje op <UnderlineLink
                             href="https://www.linkedin.com/in/joeri-abbo-43a457144/">Linkedin</UnderlineLink>
                         </p>
                     </CallToAction>
