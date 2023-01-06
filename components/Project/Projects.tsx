@@ -38,10 +38,9 @@ const Projects = (props: Props) => {
         <Col4>
             {/*TODO fix error*/}
             {/*@ts-ignore*/}
-            {projects && Object.keys(projects).length > 0 && projects.map((project: ProjectType) => (
-                <div key={project.title}>
-                    <Project tags={project.tags} description={project.description} image={project.image} title={project.title} website_url={project.website_url}/>
-                </div>
+            {projects && Object.keys(projects).length > 0 && projects.map((project: ProjectType, index) => (
+                <Project tags={project.tags} description={project.description} image={project.image}
+                         title={project.title} website_url={project.website_url} key={index}/>
             ))}
         </Col4>
     )
