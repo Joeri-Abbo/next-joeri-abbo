@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import ProjectsData from "./../../data/projects.json"
+import ProjectsData from "../../public/rest/projects.json"
 
 
 type Project = {

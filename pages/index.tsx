@@ -44,7 +44,7 @@ export default function Home() {
                             Verschillende onderdelen
                         </FeatureItem>
                     </Timeline>
-                    <Projects src="./api/projects" amount={10}/>
+                    <Projects src="/rest/projects.json" amount={10}/>
                     <CallToAction title="Koffietje doen?">
                         <p>
                             Stuur mij dan een berichtje op <UnderlineLink

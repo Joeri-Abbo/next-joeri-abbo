@@ -2,8 +2,10 @@ import Header from "./Header";
 import Footer from "./Footer";
 import ScrollableAnchor from "../components/ScrollableAnchor";
 
-// @ts-ignore
-const Layout = ({children}) => {
+type Props = {
+    children: JSX.Element[] | JSX.Element | string
+};
+const Layout = (props: Props) => {
     return (
         <>
             <ScrollableAnchor id="top" children=""/>
@@ -11,7 +13,7 @@ const Layout = ({children}) => {
             <Header/>
             <div className="min-h-screen mx-auto max-w-6xl flex flex-col">
                 <main className="flex-grow container mx-auto px-4 sm:px-6 mt-6">
-                    {children}
+                    {props.children}
                 </main>
             </div>
 
