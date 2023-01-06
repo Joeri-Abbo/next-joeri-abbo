@@ -4,9 +4,12 @@ import {useState, useEffect} from "react";
 import SunIcon from "../public/icons/sun-bright-solid.svg"
 import MoonIcon from "../public/icons/moon-solid.svg"
 import Socials from "../components/Socials";
+import LanguageSwitcher from "../components/LanguageSwitcher";
+import {useTranslation} from "react-i18next";
 
 
 const Header = () => {
+    const {t} = useTranslation();
 
     const dark = "dark";
     const light = "light";
@@ -44,6 +47,7 @@ const Header = () => {
                 <div className="flex gap-6 items-center">
                     <Socials/>
                     {renderThemeChanger()}
+                    <LanguageSwitcher/>
                 </div>
             </div>
         </header>

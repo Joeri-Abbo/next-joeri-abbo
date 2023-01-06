@@ -20,7 +20,6 @@ const Projects = (props: Props) => {
     const [projects, setProjects] = useState({});
     const [loading, setLoading] = useState(false);
     useEffect(() => {
-        // TODO fix this to only load onces
         if (!loading) {
             setLoading(true)
             fetch(props.src, {
@@ -33,7 +32,7 @@ const Projects = (props: Props) => {
                     setProjects(data)
                 })
         }
-    }, [projects]);
+    }, [loading, projects, props.src]);
 
     return (
         <Col4>

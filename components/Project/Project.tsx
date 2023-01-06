@@ -1,4 +1,5 @@
 import Image from "next/image";
+import {random} from "nanoid";
 
 type Project = {
     image: string,
@@ -9,11 +10,12 @@ type Project = {
 }
 
 
-const Projects = (project: Project) => {
+const Project = (project: Project) => {
     return (
         <>
             <div
-                className="my-8 rounded shadow-lg shadow-gray-200 dark:shadow-gray-900 bg-white dark:bg-gray-800 duration-300 hover:-translate-y-1">
+                className="my-8 rounded shadow-lg shadow-gray-200 dark:shadow-gray-900 bg-white dark:bg-gray-800
+                duration-300 hover:-translate-y-1">
                 <figure>
                     <Image src={project.image}
                            className="rounded-t h-72 w-full object-cover" alt="Me" width="600" height="600"/>
@@ -43,4 +45,4 @@ const Projects = (project: Project) => {
         </>
     )
 }
-export default Projects;
+export default Project;
