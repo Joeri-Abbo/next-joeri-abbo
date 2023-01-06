@@ -33,14 +33,14 @@ export default function Home() {
                         </Quote>
                     </ScrollableAnchor>
                     <Timeline>
-                        <CourseItem time="Vandaag" title="AWS course" tags={["1.0.2"]} downloadHref="#">
+                        <CourseItem time="Vandaag" title="AWS course" tags={["1.0.2", "latest"]} downloadHref="#">
                             Verschillende onderdelen
                         </CourseItem>
                         <WorkItem time="Vandaag" title="Gestart bij Tracefy" tags={["1.0.1"]}>
                             Verschillende onderdelen
                         </WorkItem>
                         <FeatureItem downloadHref="#" time="Vandaag" title="Start DevOps Bootcamp | Tech world met Nana"
-                                     tags={["feature/devops", "latest"]}>
+                                     tags={["feature/devops"]}>
                             Verschillende onderdelen
                         </FeatureItem>
                     </Timeline>
