@@ -6,8 +6,8 @@ import styles from '../styles/Footer.module.css'
 
 const Footer = () => {
     return (
-        <footer className="px-4 sm:px-6 py-6 mt-24 relative">
-            <Link href="/#top" className="absolute">
+        <footer className="pt-6 mt-24 relative">
+            <Link href="/#top" className="absolute left-3">
                 <ArrowUp className="w-8 h-8 fill-blue-500 dark:fill-white" role="button"/>
             </Link>
             <div className="text-center text-sm text-gray-500">
@@ -17,7 +17,11 @@ const Footer = () => {
                 Rights Reserved
             </div>
 
-            <MarsRover className={styles.mars_rover + " w-8 h-8 fill-blue-500 dark:fill-white absolute"}/>
+            <div className="overflow-hidden relative h-8 p-0">
+                <div>
+                    <MarsRover className={styles.mars_rover + " w-8 h-8 fill-blue-500 dark:fill-white absolute"}/>
+                </div>
+            </div>
         </footer>
     );
 };
