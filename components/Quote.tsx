@@ -4,7 +4,7 @@ type Props = {
     children: JSX.Element[] | JSX.Element | string
     name?: string | null
 };
-const ContentWithImage = (props: Props) => {
+const Quote = (props: Props) => {
     let iconClass = "w-20 7hover:scale-125 transform-gpu fill-blue-500 m-auto"
 
     return (
@@ -19,4 +19,4 @@ const ContentWithImage = (props: Props) => {
         </div>
     )
 }
-export default ContentWithImage;
+export default Quote;

@@ -1,10 +1,5 @@
 import Head from 'next/head'
 import Layout from "../sections/Layout";
-import ContentWithImage from "../components/ContentWithImage";
-import ScrollableAnchor from "../components/Utilities/ScrollableAnchor";
-import Link from "next/link";
-import Col4 from "../components/Utilities/Col4";
-import Box from "../components/Box";
 import Image from "next/image";
 
 export default function FourOFour() {
