@@ -78,6 +78,11 @@ export default function Home() {
                     </Col2>
                     <ScrollDown href="/#quote"/>
 
+                    <ScrollableAnchor id="quote">
+                        <Quote name="Gene Kranz">
+                            Failure is not an option
+                        </Quote>
+                    </ScrollableAnchor>
                     <Col4>
                         <Box>
                             <h3>
