@@ -1,7 +1,7 @@
-import Logo from "../components/Logo";
+import Logo from "../components/Sections/Header/Logo";
 import Socials from "../components/Socials";
-import LanguageSwitcher from "../components/LanguageSwitcher";
-import ThemeSwitcher from "../components/ThemeSwitcher";
+import LanguageSwitcher from "../components/Sections/Header/LanguageSwitcher";
+import ThemeSwitcher from "../components/Sections/Header/ThemeSwitcher";
 
 const Header = () => {
     return (

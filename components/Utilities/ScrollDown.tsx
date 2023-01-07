@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ArrowUp from "../public/icons/circle-arrow-up-solid.svg";
+import ArrowUp from "../../public/icons/circle-arrow-up-solid.svg";
 
 type Props = {
     href: string

@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 import {useTranslation, withTranslation} from 'react-i18next';
-import FlagNl from "../public/flags/nl.svg"
-import FlagEn from "../public/flags/en.svg"
+import FlagNl from "../../../public/flags/nl.svg"
+import FlagEn from "../../../public/flags/en.svg"
 
 function LanguageSwitcher() {
     const {i18n} = useTranslation();

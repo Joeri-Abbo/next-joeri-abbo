@@ -1,6 +1,6 @@
 import Header from "./Header";
 import Footer from "./Footer";
-import ScrollableAnchor from "../components/ScrollableAnchor";
+import ScrollableAnchor from "../components/Utilities/ScrollableAnchor";
 
 type Props = {
     children: JSX.Element[] | JSX.Element | string

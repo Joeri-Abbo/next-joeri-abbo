@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import Col4 from "../Col4";
+import Col4 from "../Utilities/Col4";
 import Project from "./Project";
 
 type Props = {
