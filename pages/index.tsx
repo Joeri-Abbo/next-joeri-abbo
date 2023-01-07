@@ -77,11 +77,7 @@ export default function Home() {
                         </Box>
                     </Col2>
                     <ScrollDown href="/#quote"/>
-                    <ScrollableAnchor id="quote">
-                        <Quote name="Gene Kranz">
-                            Failure is not an option
-                        </Quote>
-                    </ScrollableAnchor>
+
                     <Col4>
                         <Box>
                             <h3>
@@ -107,6 +103,7 @@ export default function Home() {
                                 <li>WordPress</li>
                                 <li>Symfony</li>
                                 <li>Zend (1.12 / 3.0)</li>
+                                <li>Magento 2</li>
                                 <li>Java Spring</li>
                                 <li>Django</li>
                                 <li>Flask</li>
@@ -115,6 +112,7 @@ export default function Home() {
                                 <li>VueJs</li>
                                 <li>JQuery</li>
                                 <li>Rocket</li>
+                                <li>Echo</li>
                                 <li>Tailwind</li>
                                 <li>Bootstrap</li>
                             </ul>
@@ -151,7 +149,6 @@ export default function Home() {
                                 <li>HTML</li>
                             </ul>
                         </Box>
-
                     </Col4>
                     <Timeline>
                         <CourseItem time="Vandaag" title="AWS course" tags={["1.0.2", "latest"]} downloadHref="#">
