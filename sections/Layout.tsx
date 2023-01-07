@@ -8,7 +8,7 @@ type Props = {
 const Layout = (props: Props) => {
     return (
         <>
-            <ScrollableAnchor id="top" children=""/>
+            <ScrollableAnchor id="top"/>
 
             <Header/>
             <div className="min-h-screen mx-auto max-w-6xl flex flex-col">
@@ -17,7 +17,6 @@ const Layout = (props: Props) => {
                 </main>
             </div>
 
-            {/*TODO remove after january*/}
             {/* eslint-disable-next-line @next/next/no-sync-scripts */}
             {/*<script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>*/}
             {/*<script>*/}
