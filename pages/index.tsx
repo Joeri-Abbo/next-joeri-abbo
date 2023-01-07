@@ -17,6 +17,7 @@ import {TypeAnimation} from "react-type-animation";
 import Button from "../components/Button";
 import Socials from "../components/Socials";
 import Image from "next/image";
+import Col4 from "../components/Utilities/Col4";
 
 export default function Home() {
     return (
@@ -81,6 +82,77 @@ export default function Home() {
                             Failure is not an option
                         </Quote>
                     </ScrollableAnchor>
+                    <Col4>
+                        <Box>
+                            <h3>
+                                Languages
+                            </h3>
+                            <ul>
+                                <li>PHP</li>
+                                <li>Python</li>
+                                <li>Java</li>
+                                <li>Typescript</li>
+                                <li>Javascript</li>
+                                <li>Rust</li>
+                                <li>GoLang</li>
+                                <li>SASS</li>
+                                <li>CSS</li>
+                                <li>HTML</li>
+                            </ul>
+                        </Box>
+                        <Box>
+                            <h3>Frameworks</h3>
+                            <ul>
+                                <li>Laravel</li>
+                                <li>WordPress</li>
+                                <li>Symfony</li>
+                                <li>Zend (1.12 / 3.0)</li>
+                                <li>Java Spring</li>
+                                <li>Django</li>
+                                <li>Flask</li>
+                                <li>ReactJs</li>
+                                <li>Nextjs</li>
+                                <li>VueJs</li>
+                                <li>JQuery</li>
+                                <li>Rocket</li>
+                                <li>Tailwind</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </Box>
+                        <Box>
+                            <h3>Databases</h3>
+                            <ul>
+                                <li>Mysql</li>
+                                <li>Redis</li>
+                                <li>DynamoDB</li>
+                            </ul>
+                            <h3>Os</h3>
+                            <ul>
+                                <li>MacOS</li>
+                                <li>Centos</li>
+                                <li>Ubuntu</li>
+                                <li>Debian</li>
+                                <li>Rasbian</li>
+                                <li>Alpine</li>
+                            </ul>
+                        </Box>
+                        <Box>
+                            <h3>Tools</h3>
+                            <ul>
+                                <li>Digital Ocean</li>
+                                <li>AWS</li>
+                                <li>Cloudflare</li>
+                                <li>Github actions</li>
+                                <li>Gitlab ci</li>
+                                <li>Jenkins</li>
+                                <li>Docker</li>
+                                <li>Kubernetes (k3/k8)</li>
+                                <li>Rancher</li>
+                                <li>HTML</li>
+                            </ul>
+                        </Box>
+
+                    </Col4>
                     <Timeline>
                         <CourseItem time="Vandaag" title="AWS course" tags={["1.0.2", "latest"]} downloadHref="#">
                             Verschillende onderdelen
