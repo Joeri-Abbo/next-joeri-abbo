@@ -10,8 +10,7 @@ const Socials = () => {
             <Link href="https://www.facebook.com/joeri.abbo.1" target="_blank">
                 <Facebook className={iconClass}/>
             </Link>
-            <Link href={`mailto:${"joeriabbo@hotmail.com"}?subject=${"Contact" || ""}&body=${"Hallo" || ""}`}
-                  target="_blank">
+            <Link href={`mailto:${"joeriabbo@hotmail.com"}?subject=Hello Joeri`} target="_blank">
                 <Envelope className={iconClass}/>
             </Link>
             <Link href="https://www.linkedin.com/in/joeri-abbo-43a457144/" target="_blank">
