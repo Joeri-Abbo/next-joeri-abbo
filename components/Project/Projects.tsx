@@ -14,8 +14,6 @@ type ProjectType = {
     description: string,
     tags?: any,
 }
-
-
 const Projects = (props: Props) => {
     const [projects, setProjects] = useState({});
     const [loading, setLoading] = useState(false);
@@ -36,7 +34,6 @@ const Projects = (props: Props) => {
 
     return (
         <Col4>
-            {/*TODO fix error*/}
             {/*@ts-ignore*/}
             {projects && Object.keys(projects).length > 0 && projects.map((project: ProjectType, index) => (
                 <Project tags={project.tags} description={project.description} image={project.image}

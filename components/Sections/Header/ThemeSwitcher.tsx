@@ -16,7 +16,6 @@ function ThemeSwitcher() {
         setMounted(true);
     }, [])
 
-
     const renderThemeChanger = () => {
         if (!mounted) return null;
 

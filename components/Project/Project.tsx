@@ -9,8 +9,6 @@ type Project = {
     description: string,
     tags?: any,
 }
-
-
 const Project = (project: Project) => {
     const id = useId();
 
