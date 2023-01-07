@@ -5,6 +5,9 @@ const nextConfig = {
             test: /\.svg$/,
             use: ["@svgr/webpack"]
         });
+        const alias = {...config.resolve.alias}
+
+        delete alias.url // alias to native-url
 
         return config;
     },
