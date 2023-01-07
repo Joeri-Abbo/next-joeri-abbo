@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Layout from "../sections/Layout";
-import ContentWithImage from "../components/ContentWithImage";
 import ScrollableAnchor from "../components/ScrollableAnchor";
 import Quote from "../components/Quote";
 import CallToAction from "../components/CallToAction";
@@ -11,6 +10,13 @@ import WorkItem from "../components/Timeline/WorkItem";
 import FeatureItem from "../components/Timeline/FeatureItem";
 import ScrollDown from "../components/ScrollDown";
 import Projects from "../components/Project/Projects";
+import Col2 from "../components/Col2";
+import Box from "../components/Box";
+import Title from "../components/Title";
+import {TypeAnimation} from "react-type-animation";
+import Button from "../components/Button";
+import Socials from "../components/Socials";
+import Image from "next/image";
 
 export default function Home() {
     return (
@@ -23,9 +29,52 @@ export default function Home() {
                     <link rel="icon" href="/favicon.ico"/>
                 </Head>
                 <main className="">
-                    <ContentWithImage>
-                        Hello world
-                    </ContentWithImage>
+                    <Col2>
+                        <Box>
+                            <div className="flex h-full">
+                                <div className="mt-auto mb-auto">
+                                    <div>
+                                        <Title>
+                                            <TypeAnimation
+                                                sequence={[
+                                                    'Ik ben een Backend developer',
+                                                    2000,
+                                                    'Ik ben een Frontend developer',
+                                                    2000,
+                                                    'Ik ben een Fullstack developer',
+                                                    2000,
+                                                    'Ik ben een Devops engineer',
+                                                    2000,
+                                                    'Ik ben een Cloud architect',
+                                                    2000,
+                                                    'Ik ben een Devops architect',
+                                                    2000,
+                                                ]}
+                                                speed={30}
+                                                style={{fontSize: '2em', width: '100%'}}
+                                                wrapper="span"
+                                                repeat={Infinity}
+                                            />
+                                        </Title>
+                                        <div>
+                                            Test
+                                        </div>
+                                    </div>
+                                    <Button>
+                                        Hello
+                                    </Button>
+                                    <Socials/>
+                                </div>
+                            </div>
+                        </Box>
+                        <Box>
+                            <div className="flex h-full lg:justify-end justify-center">
+                                <Image src="/hero.jpeg" className="rounded-full object-cover h-80 w-80 object-left"
+                                       alt="Me"
+                                       width="600" height="600"/>
+                            </div>
+                        </Box>
+                    </Col2>
                     <ScrollDown href="/#quote"/>
                     <ScrollableAnchor id="quote">
                         <Quote name="Gene Kranz">
