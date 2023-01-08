@@ -3,7 +3,7 @@ type Props = {
 };
 const Title = (props: Props) => {
     return (
-        <div className="text-2xl">
+        <div className="text-2xl min-h-[90px]">
             {props.children}
         </div>
     )
