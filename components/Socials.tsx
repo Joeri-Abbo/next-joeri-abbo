@@ -1,6 +1,7 @@
 import Facebook from "../public/icons/facebook.svg"
 import Envelope from "../public/icons/circle-envelope-solid.svg"
 import Linkedin from "../public/icons/linkedin-in.svg"
+import Github from "../public/icons/github.svg"
 import Link from "next/link";
 
 const Socials = () => {
@@ -15,6 +16,9 @@ const Socials = () => {
             </Link>
             <Link href="https://www.linkedin.com/in/joeri-abbo-43a457144/" target="_blank">
                 <Linkedin className={iconClass}/>
+            </Link>
+            <Link href="https://github.com/Joeri-Abbo" target="_blank">
+                <Github className={iconClass}/>
             </Link>
         </div>
     )
