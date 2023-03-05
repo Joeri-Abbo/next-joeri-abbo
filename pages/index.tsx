@@ -151,7 +151,8 @@ export default function Home() {
                                 <li>Docker</li>
                                 <li>Kubernetes (k3/k8)</li>
                                 <li>Rancher</li>
-                                <li>HTML</li>
+                                <li>Ansible</li>
+                                <li>Terraform</li>
                             </ul>
                         </Box>
                     </Col4>
