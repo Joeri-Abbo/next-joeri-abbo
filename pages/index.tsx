@@ -18,6 +18,7 @@ import Button from "../components/Button";
 import Socials from "../components/Socials";
 import Image from "next/image";
 import Col4 from "../components/Utilities/Col4";
+import i18n from "i18next";
 
 export default function Home() {
     return (
@@ -168,7 +169,10 @@ export default function Home() {
                             Verschillende onderdelen
                         </FeatureItem>
                     </Timeline>
-                    <Projects src="/rest/projects.json" amount={10}/>
+                    <Projects src={"/rest/" + i18n.language + "/projects.json"}amount={10}/>
+                    <Quote name="Uncle Ben">
+                        with great power comes great responsibility
+                    </Quote>
                     <CallToAction title="Koffietje doen?">
                         <p>
                             Stuur mij dan een berichtje op <UnderlineLink

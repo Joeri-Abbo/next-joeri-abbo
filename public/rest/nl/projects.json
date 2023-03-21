@@ -1,0 +1,418 @@
+[
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "RAAC | Website",
+    "href": "#",
+    "description": "RAAC is a company founded in 2012 that provides consultancy and auditing services while maintaining a commitment to quality, reliability, and creativity. We custom made a Next.js website for this client.",
+    "tags": [
+      "Corporate Website",
+      "NextJS",
+      "Static Website"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Tracefy | Backoffice",
+    "href": "#",
+    "description": "Tracefy is a company providing a platform for fleet management and tracking. I made a Laravel backoffice for this client. This application is used by the company's employees to automate their processes.",
+    "tags": [
+      "Web Application",
+      "Laravel",
+      "Laravel Livewire"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Tracefy | Infrastructure Migration",
+    "href": "#",
+    "description": "Tracefy had a problem with their infrastructure. They had a lot of servers and they were not able to manage them. I helped them to migrate their infrastructure to AWS and I also helped them to manage their servers.",
+    "tags": [
+      "Web Application",
+      "AWS",
+      "Digital Ocean"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Tracefy | Infrastructure AS Code",
+    "href": "#",
+    "description": "Tracefy had a old that was managed by hand. I helped them to migrate their infrastructure to IAC. This helped them to manage their infrastructure in a better way. Also, this helped them to scale their infrastructure easily.",
+    "tags": [
+      "Infrastructure",
+      "Terraform",
+      "Ansible"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Tracefy | Socket Services",
+    "href": "#",
+    "description": "Tracefy had multiple socket service that were not dry and written in old PHP versions (5.6). I helped them to migrate their socket services to new PHP versions and also I helped them to make them dry. This helped them to scale their socket services easily.",
+    "tags": [
+      "Infrastructure",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Tracefy | Migration docker to kubernetes",
+    "href": "#",
+    "description": "Tracefy had a lot of docker containers that were not managed by kubernetes. I helped them to migrate their docker containers to kubernetes. This helped them to manage their containers in a better way. Before this, they were managing their containers by docker swarm.",
+    "tags": [
+      "Infrastructure",
+      "Docker",
+      "Kubernetes"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Tracefy | Migration PHP 7.0 to PHP 8.2 and Laravel multiple versions",
+    "href": "#",
+    "description": "Tracefy had a few PHP services that were not updated to the latest PHP version. I helped them to migrate their PHP services to the latest PHP version. This helped them to use the latest PHP features. Also, I helped them to migrate their PHP services to the latest Laravel version. This helped them to use the latest Laravel features.",
+    "tags": [
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Tracefy | Dealershop",
+    "href": "#",
+    "description": "Tracefy had a old wordpress website build on sage theme. I co developed a new dealershop in Wordpress. This helped them to manage their dealerships in a better way.",
+    "tags": [
+      "Wordpress",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Tracefy | Microservices",
+    "href": "#",
+    "description": "Tracefy had a few monolith applications I split them to be multiple microservices. This made them more scalable. ",
+    "tags": [
+      "Laravel",
+      "Rocket",
+      "Spring"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Tracefy | Monitoring business Metrics",
+    "href": "#",
+    "description": "Tracefy had a few monitoring rules. I firstly migrated their old monitoring to influxDB for business metrics",
+    "tags": [
+      "Laravel",
+      "Rocket",
+      "Spring"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Tracefy | Monitoring infrastructure metrics",
+    "href": "#",
+    "description": "Tracefy had a few influx metrics to view mem and cpu usage. I migrated this to prometheus and grafana. This helped them to view their metrics in a better way. And have a good overview for their infrastructure monitoring.",
+    "tags": [
+      "Prometheus",
+      "Grafana"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Tracefy | Jasper api integration",
+    "href": "#",
+    "description": "Tracefy had a few operations that were done manually. I helped them to automate these operations by integrating their jasper api. This helped them to automate their operations and save time hours per week.",
+    "tags": [
+      "Python",
+      "Jasper API"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Elephant | Bambook e-commerce",
+    "href": "#",
+    "description": "When I was working at Elephant, I helped them to build a e-commerce website for Bambook. This was build in Magento 2. This helped them to sell their products online.",
+    "tags": [
+      "Magento 2",
+      "PHP",
+      "e-commerce"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Elephant | the-bulldog e-commerce",
+    "href": "#",
+    "description": "When I was working at Elephant, I helped them to build a e-commerce website for the-bulldog. This was build in wordpress with woocommerce. This helped them to sell their products online.",
+    "tags": [
+      "Wordpress",
+      "PHP",
+      "e-commerce"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Elephant | De franse alp e-commerce",
+    "href": "#",
+    "description": "When I was working at Elephant, I helped them to build a e-commerce website for De franse alp. This was build in wordpress with woocommerce.",
+    "tags": [
+      "Wordpress",
+      "PHP",
+      "e-commerce"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Elephant | Height technologies",
+    "href": "#",
+    "description": "https://www.heighttechnologies.com/",
+    "tags": [
+      "Wordpress",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Elephant | Bij Da",
+    "href": "#",
+    "description": "https://bij-da.nl/",
+    "tags": [
+      "Wordpress",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Elephant | Dehora Werken bij",
+    "href": "#",
+    "description": "https://bij-da.nl/",
+    "tags": [
+      "Wordpress",
+      "PHP",
+      "carerix"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Elephant | Bosmanvanzaal werken bij",
+    "href": "#",
+    "description": "https://jobs.bosmanvanzaal.nl/",
+    "tags": [
+      "Wordpress",
+      "PHP",
+      "Recruit now"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Elephant | Star group",
+    "href": "#",
+    "description": "https://star-specialists.com/nl/",
+    "tags": [
+      "Wordpress",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Elephant | Poort6",
+    "href": "#",
+    "description": "https://www.poort6.nl/",
+    "tags": [
+      "Wordpress",
+      "PHP",
+      "woongaard api"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Elephant | Raft",
+    "href": "#",
+    "description": "https://www.raft.nl/",
+    "tags": [
+      "Wordpress",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Rodesk|Webnl | Auris (Corperate website)",
+    "href": "#",
+    "description": "https://www.auris.nl/",
+    "tags": [
+      "Wordpress",
+      "PHP",
+      "rokit"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Rodesk|Webnl | Auris (Corperate Multisite)",
+    "href": "#",
+    "description": "https://florant.nl/",
+    "tags": [
+      "Wordpress",
+      "PHP",
+      "Multisite",
+      "rokit"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Webnl | Avilo",
+    "href": "#",
+    "description": "https://www.avilo.nl/",
+    "tags": [
+      "Wordpress",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Rodesk|Webnl | Kleinhandel",
+    "href": "#",
+    "description": "https://www.kleinhandel.org/",
+    "tags": [
+      "Wordpress",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Rodesk | Wissing",
+    "href": "#",
+    "description": "https://www.wissing.nl/",
+    "tags": [
+      "Wordpress",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Rodesk | For The People",
+    "href": "#",
+    "description": "https://forthepeople.nl/",
+    "tags": [
+      "Wordpress",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Rodesk | Fivoor",
+    "href": "#",
+    "description": "https://fivoor.nl/",
+    "tags": [
+      "Wordpress",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Rodesk|Webnl | Jenkins (CI/CD) to Envoyer migratie",
+    "href": "#",
+    "description": "",
+    "tags": [
+      "Devops",
+      "CI/CD"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Webnl | Server migration",
+    "href": "#",
+    "description": "",
+    "tags": [
+      "Devops",
+      "CI/CD"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Rodesk | Brinkyland",
+    "href": "#",
+    "description": "https://brinkyland.nl/",
+    "tags": [
+      "Wordpress",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Rodesk | Realconomy",
+    "href": "#",
+    "description": "https://www.realconomy.com/",
+    "tags": [
+      "Wordpress",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Rodesk | Realconomy",
+    "href": "#",
+    "description": "https://www.realconomy.com/",
+    "tags": [
+      "Wordpress",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Rodesk | GHG",
+    "href": "#",
+    "description": "https://www.ghg.nl/",
+    "tags": [
+      "Wordpress",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Rodesk | SIFR",
+    "href": "#",
+    "description": "https://sifr.nl/",
+    "tags": [
+      "Wordpress",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Rodesk | TWTG",
+    "href": "#",
+    "description": "https://www.twtg.io/",
+    "tags": [
+      "Wordpress",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Rodesk | Simendo",
+    "href": "#",
+    "description": "https://www.simendo.eu/",
+    "tags": [
+      "Wordpress",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Rodesk | Kinderdijk",
+    "href": "#",
+    "description": "https://www.kinderdijk.nl/",
+    "tags": [
+      "Wordpress",
+      "PHP"
+    ]
+  },
+  {
+    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "title": "Rodesk | Faceland Clinics",
+    "href": "#",
+    "description": "https://www.facelandclinic.com/",
+    "tags": [
+      "Wordpress",
+      "PHP"
+    ]
+  }
+]

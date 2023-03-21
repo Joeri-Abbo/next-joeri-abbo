@@ -1,13 +1,12 @@
-type Tag = {
-    children: JSX.Element[] | JSX.Element | string
-}
+import ChildrenType from "../ChildrenType";
 
-const Project = (tag: Tag) => {
+
+const Tag = (tag: ChildrenType) => {
 
     return (
-        <div>
+        <div className="text-sm bg-blue-500 rounded text-white p-1 m-2">
             {tag.children}
         </div>
     )
 }
-export default Project;
+export default Tag;

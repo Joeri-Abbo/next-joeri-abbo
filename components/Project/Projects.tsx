@@ -1,20 +1,15 @@
 import {useEffect, useState} from "react";
-import Col4 from "../Utilities/Col4";
+import Col3 from "../Utilities/Col3";
 import Project from "./Project";
+import ProjectType from "./ProjectType";
 
 type Props = {
     src: string,
     amount: number,
 };
 
-type ProjectType = {
-    image: string,
-    title: string,
-    website_url: string,
-    description: string,
-    tags?: any,
-}
 const Projects = (props: Props) => {
+
     const [projects, setProjects] = useState({});
     const [loading, setLoading] = useState(false);
     useEffect(() => {
@@ -33,13 +28,14 @@ const Projects = (props: Props) => {
     }, [loading, projects, props.src]);
 
     return (
-        <Col4>
+        <Col3>
+
             {/*@ts-ignore*/}
             {projects && Object.keys(projects).length > 0 && projects.map((project: ProjectType, index) => (
                 <Project tags={project.tags} description={project.description} image={project.image}
-                         title={project.title} website_url={project.website_url} key={index}/>
+                         title={project.title} href={project.href} key={index}/>
             ))}
-        </Col4>
+        </Col3>
     )
 }
 export default Projects;
