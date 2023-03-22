@@ -1,7 +1,6 @@
-type Props = {
-    children: string
-};
-const Button = (props: Props) => {
+import ChildrenType from "./ChildrenType";
+
+const Button = (props: ChildrenType) => {
     return (
         <div className="">
             {props.children}

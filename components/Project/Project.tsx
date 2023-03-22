@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React, {useId} from 'react'
-import Tag from "./Tag";
 import ProjectType from "./ProjectType";
 import Tags from "./Tags";
 

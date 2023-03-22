@@ -1,5 +1,4 @@
 import {ReactElement, JSXElementConstructor, ReactFragment, ReactPortal} from "react";
-import {random} from "nanoid";
 
 type Props = {
     children: JSX.Element[] | JSX.Element | string,
