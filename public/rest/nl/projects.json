@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/raac.png",
     "title": "RAAC | Website",
     "href": "#",
     "description": "RAAC is a company founded in 2012 that provides consultancy and auditing services while maintaining a commitment to quality, reliability, and creativity. We custom made a Next.js website for this client.",
@@ -11,7 +11,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/tracefy.png",
     "title": "Tracefy | Backoffice",
     "href": "#",
     "description": "Tracefy is a company providing a platform for fleet management and tracking. I made a Laravel backoffice for this client. This application is used by the company's employees to automate their processes.",
@@ -22,7 +22,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/tracefy.png",
     "title": "Tracefy | Infrastructure Migration",
     "href": "#",
     "description": "Tracefy had a problem with their infrastructure. They had a lot of servers and they were not able to manage them. I helped them to migrate their infrastructure to AWS and I also helped them to manage their servers.",
@@ -33,7 +33,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/tracefy.png",
     "title": "Tracefy | Infrastructure AS Code",
     "href": "#",
     "description": "Tracefy had a old that was managed by hand. I helped them to migrate their infrastructure to IAC. This helped them to manage their infrastructure in a better way. Also, this helped them to scale their infrastructure easily.",
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/tracefy.png",
     "title": "Tracefy | Socket Services",
     "href": "#",
     "description": "Tracefy had multiple socket service that were not dry and written in old PHP versions (5.6). I helped them to migrate their socket services to new PHP versions and also I helped them to make them dry. This helped them to scale their socket services easily.",
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/tracefy.png",
     "title": "Tracefy | Migration docker to kubernetes",
     "href": "#",
     "description": "Tracefy had a lot of docker containers that were not managed by kubernetes. I helped them to migrate their docker containers to kubernetes. This helped them to manage their containers in a better way. Before this, they were managing their containers by docker swarm.",
@@ -65,7 +65,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/tracefy.png",
     "title": "Tracefy | Migration PHP 7.0 to PHP 8.2 and Laravel multiple versions",
     "href": "#",
     "description": "Tracefy had a few PHP services that were not updated to the latest PHP version. I helped them to migrate their PHP services to the latest PHP version. This helped them to use the latest PHP features. Also, I helped them to migrate their PHP services to the latest Laravel version. This helped them to use the latest Laravel features.",
@@ -75,7 +75,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/tracefy.png",
     "title": "Tracefy | Dealershop",
     "href": "#",
     "description": "Tracefy had a old wordpress website build on sage theme. I co developed a new dealershop in Wordpress. This helped them to manage their dealerships in a better way.",
@@ -85,7 +85,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/tracefy.png",
     "title": "Tracefy | Microservices",
     "href": "#",
     "description": "Tracefy had a few monolith applications I split them to be multiple microservices. This made them more scalable. ",
@@ -96,7 +96,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/tracefy.png",
     "title": "Tracefy | Monitoring business Metrics",
     "href": "#",
     "description": "Tracefy had a few monitoring rules. I firstly migrated their old monitoring to influxDB for business metrics",
@@ -107,7 +107,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/tracefy.png",
     "title": "Tracefy | Monitoring infrastructure metrics",
     "href": "#",
     "description": "Tracefy had a few influx metrics to view mem and cpu usage. I migrated this to prometheus and grafana. This helped them to view their metrics in a better way. And have a good overview for their infrastructure monitoring.",
@@ -117,7 +117,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/tracefy.png",
     "title": "Tracefy | Jasper api integration",
     "href": "#",
     "description": "Tracefy had a few operations that were done manually. I helped them to automate these operations by integrating their jasper api. This helped them to automate their operations and save time hours per week.",
@@ -127,7 +127,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/bambook.png",
     "title": "Elephant | Bambook e-commerce",
     "href": "#",
     "description": "When I was working at Elephant, I helped them to build a e-commerce website for Bambook. This was build in Magento 2. This helped them to sell their products online.",
@@ -138,7 +138,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/the-bulldog.png",
     "title": "Elephant | the-bulldog e-commerce",
     "href": "#",
     "description": "When I was working at Elephant, I helped them to build a e-commerce website for the-bulldog. This was build in wordpress with woocommerce. This helped them to sell their products online.",
@@ -149,7 +149,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/de-franse-alp.png",
     "title": "Elephant | De franse alp e-commerce",
     "href": "#",
     "description": "When I was working at Elephant, I helped them to build a e-commerce website for De franse alp. This was build in wordpress with woocommerce.",
@@ -160,7 +160,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/heighttechnologies.png",
     "title": "Elephant | Height technologies",
     "href": "#",
     "description": "https://www.heighttechnologies.com/",
@@ -170,7 +170,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/bij-da.png",
     "title": "Elephant | Bij Da",
     "href": "#",
     "description": "https://bij-da.nl/",
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/dehora.png",
     "title": "Elephant | Dehora Werken bij",
     "href": "#",
     "description": "https://bij-da.nl/",
@@ -191,7 +191,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/bosmanvanzaal.png",
     "title": "Elephant | Bosmanvanzaal werken bij",
     "href": "#",
     "description": "https://jobs.bosmanvanzaal.nl/",
@@ -202,7 +202,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/star-group.png",
     "title": "Elephant | Star group",
     "href": "#",
     "description": "https://star-specialists.com/nl/",
@@ -212,7 +212,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/poort6.png",
     "title": "Elephant | Poort6",
     "href": "#",
     "description": "https://www.poort6.nl/",
@@ -223,7 +223,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/raft.png",
     "title": "Elephant | Raft",
     "href": "#",
     "description": "https://www.raft.nl/",
@@ -233,7 +233,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/auris.png",
     "title": "Rodesk|Webnl | Auris (Corperate website)",
     "href": "#",
     "description": "https://www.auris.nl/",
@@ -244,7 +244,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/auris-multisite.png",
     "title": "Rodesk|Webnl | Auris (Corperate Multisite)",
     "href": "#",
     "description": "https://florant.nl/",
@@ -256,7 +256,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/avilo.png",
     "title": "Webnl | Avilo",
     "href": "#",
     "description": "https://www.avilo.nl/",
@@ -266,7 +266,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/kleinhandel.png",
     "title": "Rodesk|Webnl | Kleinhandel",
     "href": "#",
     "description": "https://www.kleinhandel.org/",
@@ -276,7 +276,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/wissing.png",
     "title": "Rodesk | Wissing",
     "href": "#",
     "description": "https://www.wissing.nl/",
@@ -286,7 +286,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/forthepeople.png",
     "title": "Rodesk | For The People",
     "href": "#",
     "description": "https://forthepeople.nl/",
@@ -296,7 +296,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/fivoor.png",
     "title": "Rodesk | Fivoor",
     "href": "#",
     "description": "https://fivoor.nl/",
@@ -306,7 +306,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/webnl-rodesk.png",
     "title": "Rodesk|Webnl | Jenkins (CI/CD) to Envoyer migratie",
     "href": "#",
     "description": "",
@@ -316,7 +316,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/webnl.png",
     "title": "Webnl | Server migration",
     "href": "#",
     "description": "",
@@ -326,7 +326,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/brinkyland.png",
     "title": "Rodesk | Brinkyland",
     "href": "#",
     "description": "https://brinkyland.nl/",
@@ -336,7 +336,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/realconomy.png",
     "title": "Rodesk | Realconomy",
     "href": "#",
     "description": "https://www.realconomy.com/",
@@ -346,17 +346,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
-    "title": "Rodesk | Realconomy",
-    "href": "#",
-    "description": "https://www.realconomy.com/",
-    "tags": [
-      "Wordpress",
-      "PHP"
-    ]
-  },
-  {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/ghg.png",
     "title": "Rodesk | GHG",
     "href": "#",
     "description": "https://www.ghg.nl/",
@@ -366,7 +356,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/sifr.png",
     "title": "Rodesk | SIFR",
     "href": "#",
     "description": "https://sifr.nl/",
@@ -376,7 +366,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/twtg.png",
     "title": "Rodesk | TWTG",
     "href": "#",
     "description": "https://www.twtg.io/",
@@ -386,7 +376,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/simendo.png",
     "title": "Rodesk | Simendo",
     "href": "#",
     "description": "https://www.simendo.eu/",
@@ -396,7 +386,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/kinderdijk.png",
     "title": "Rodesk | Kinderdijk",
     "href": "#",
     "description": "https://www.kinderdijk.nl/",
@@ -406,7 +396,7 @@
     ]
   },
   {
-    "image": "https://source.unsplash.com/random/900%C3%97700/?random",
+    "image": "projects/faceland.png",
     "title": "Rodesk | Faceland Clinics",
     "href": "#",
     "description": "https://www.facelandclinic.com/",

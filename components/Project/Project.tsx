@@ -13,7 +13,7 @@ const Project = (project: ProjectType) => {
             <figure>
                 <div className="relative">
                     <Image src={project.image}
-                           className="rounded-t h-72 w-full object-cover" alt="Me" width="600" height="600"/>
+                           className="rounded-t w-full" alt="Me" width="600" height="600"/>
                     <div className="absolute bottom-0 m-auto w-full">
                         <Tags tags={project.tags}/>
                     </div>
