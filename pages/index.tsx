@@ -5,9 +5,9 @@ import Quote from "../components/Quote";
 import CallToAction from "../components/CallToAction";
 import UnderlineLink from "../components/Utilities/UnderlineLink";
 import Timeline from "../components/Timeline/Timeline";
-import CourseItem from "../components/Timeline/CourseItem";
-import WorkItem from "../components/Timeline/WorkItem";
-import FeatureItem from "../components/Timeline/FeatureItem";
+import Course from "../components/Timeline/Item/Course";
+import Work from "../components/Timeline/Item/Work";
+import FeatureItem from "../components/Timeline/Item/Feature";
 import ScrollDown from "../components/Utilities/ScrollDown";
 import Projects from "../components/Project/Projects";
 import Col2 from "../components/Utilities/Col2";
@@ -159,12 +159,12 @@ export default function Home() {
                         </Box>
                     </Col4>
                     <Timeline>
-                        <CourseItem time="Vandaag" title="AWS course" tags={["1.0.2", "latest"]} downloadHref="#">
+                        <Course time="Vandaag" title="AWS course" tags={["1.0.2", "latest"]} downloadHref="#">
                             Verschillende onderdelen
-                        </CourseItem>
-                        <WorkItem time="Vandaag" title="Gestart bij Tracefy" tags={["1.0.1"]}>
+                        </Course>
+                        <Work time="Vandaag" title="Gestart bij Tracefy" tags={["1.0.1"]}>
                             Verschillende onderdelen
-                        </WorkItem>
+                        </Work>
                         <FeatureItem downloadHref="#" time="Vandaag" title="Start DevOps Bootcamp | Tech world met Nana"
                                      tags={["feature/devops"]}>
                             Verschillende onderdelen

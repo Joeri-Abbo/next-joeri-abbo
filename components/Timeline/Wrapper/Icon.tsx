@@ -1,6 +1,6 @@
-import ChildrenType from "../ChildrenType";
+import ChildrenType from "../../ChildrenType";
 
-const IconWrapper = (props: ChildrenType) => {
+const Icon = (props: ChildrenType) => {
     return (
         <span
             className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -8,4 +8,4 @@ const IconWrapper = (props: ChildrenType) => {
         </span>
     )
 }
-export default IconWrapper;
+export default Icon;
