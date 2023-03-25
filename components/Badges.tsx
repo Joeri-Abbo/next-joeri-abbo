@@ -4,8 +4,7 @@ import Badge from "./Badge";
 import BadgeType from "./BadgeType";
 
 const Badges = () => {
-
-    const [badges, setBadges] = useState({});
+    const [badges, setBadges] = useState<BadgeType[]>([]);
     const [loading, setLoading] = useState(false);
     useEffect(() => {
         if (!loading) {
@@ -25,13 +24,13 @@ const Badges = () => {
 
     return (
         <Col6>
-
-            {/*@ts-ignore*/}
-            {badges && Object.keys(badges).length > 0 && badges.map((badge: BadgeType, index) => (
-                <>
-                    <Badge badge={badge}/>
-                </>
-            ))}
+            {badges.length > 0 ? (
+                badges.map((badge: BadgeType) => (
+                    <Badge badge={badge} key={badge.id}/>
+                ))
+            ) : (
+                <div>No badges to display</div>
+            )}
         </Col6>
     )
 }
