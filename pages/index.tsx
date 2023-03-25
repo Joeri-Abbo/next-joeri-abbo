@@ -63,9 +63,6 @@ export default function Home() {
                                             Test
                                         </div>
                                     </div>
-                                    <Button>
-                                        Hello
-                                    </Button>
                                     <Socials/>
                                 </div>
                             </div>
