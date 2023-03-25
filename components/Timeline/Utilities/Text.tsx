@@ -1,4 +1,4 @@
-import ChildrenType from "../../ChildrenType";
+import ChildrenType from "../../Utilities/ChildrenType";
 
 const Text = (props: ChildrenType) => {
     return (

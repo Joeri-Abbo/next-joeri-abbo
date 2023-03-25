@@ -1,10 +1,10 @@
 import {useEffect, useState} from "react";
-import Col6 from "./Utilities/Col6";
+import Col6 from "../Utilities/Col6";
 import Badge from "./Badge";
-import BadgeType from "./BadgeType";
+import Type from "./Type";
 
 const Badges = () => {
-    const [badges, setBadges] = useState<BadgeType[]>([]);
+    const [badges, setBadges] = useState<Type[]>([]);
     const [loading, setLoading] = useState(false);
     useEffect(() => {
         if (!loading) {
@@ -25,7 +25,7 @@ const Badges = () => {
     return (
         <Col6>
             {badges.length > 0 ? (
-                badges.map((badge: BadgeType) => (
+                badges.map((badge: Type) => (
                     <Badge badge={badge} key={badge.id}/>
                 ))
             ) : (

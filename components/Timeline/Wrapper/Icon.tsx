@@ -1,4 +1,4 @@
-import ChildrenType from "../../ChildrenType";
+import ChildrenType from "../../Utilities/ChildrenType";
 
 const Icon = (props: ChildrenType) => {
     return (

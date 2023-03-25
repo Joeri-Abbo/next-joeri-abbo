@@ -1,9 +1,9 @@
 import Image from "next/image";
-import BadgeType from "./BadgeType";
+import Type from "./Type";
 import React from "react";
 
 type Props = {
-    badge: BadgeType
+    badge: Type
 }
 const Badges = ({badge}: Props) => {
     return (

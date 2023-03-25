@@ -1,4 +1,4 @@
-import ChildrenType from "../ChildrenType";
+import ChildrenType from "./ChildrenType";
 
 const Col4 = (props: ChildrenType) => {
     return (

@@ -11,15 +11,15 @@ import FeatureItem from "../components/Timeline/Item/Feature";
 import ScrollDown from "../components/Utilities/ScrollDown";
 import Projects from "../components/Project/Projects";
 import Col2 from "../components/Utilities/Col2";
-import Box from "../components/Box";
-import Title from "../components/Title";
+import Box from "../components/Utilities/Box";
+import Title from "../components/Utilities/Title";
 import {TypeAnimation} from "react-type-animation";
-import Button from "../components/Button";
+import Button from "../components/Utilities/Button";
 import Socials from "../components/Socials";
 import Image from "next/image";
 import Col4 from "../components/Utilities/Col4";
 import i18n from "i18next";
-import Badges from "../components/Badges";
+import Badges from "../components/Badge/Badges";
 
 export default function Home() {
     return (
