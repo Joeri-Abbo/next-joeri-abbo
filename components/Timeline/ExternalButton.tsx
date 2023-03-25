@@ -1,4 +1,4 @@
-import DownloadSolid from "../../public/icons/download-solid.svg"
+import External from "../../public/icons/external.svg"
 import Button from "./Button";
 
 type Props = {
@@ -13,10 +13,11 @@ const DownloadButton = (props: Props) => {
             </div>
         );
     }
+
     return (
         <Button href={props.href}>
             <span className="flex">
-                <DownloadSolid className={"w-3.5 h-3.5  fill-blue-500 mr-2"}/>
+                <External className={"w-3.5 h-3.5  fill-blue-500 mr-2"}/>
                 {props.children === undefined ? "Download" : props.children}
             </span>
         </Button>
