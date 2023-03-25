@@ -7,7 +7,7 @@ import Link from "next/link";
 const Socials = () => {
     let iconClass = "w-6 h-6 hover:scale-125 transform-gpu fill-blue-500"
     return (
-        <div className=" flex gap-2.5 my-2">
+        <div className="my-2 flex gap-2.5">
             <Link href="https://www.facebook.com/joeri.abbo.1" target="_blank">
                 <Facebook className={iconClass}/>
             </Link>

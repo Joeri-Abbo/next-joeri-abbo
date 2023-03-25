@@ -11,7 +11,7 @@ const Course = (props: Type) => {
     return (
         <ItemWrapper>
             <IconWrapper>
-                <Graduation className="w-4 h-4 hover:scale-125 transform-gpu fill-blue-500"/>
+                <Graduation className="h-4 w-4 transform-gpu fill-blue-500 hover:scale-125"/>
             </IconWrapper>
             <Title tags={props.tags}>
                 {props.title}

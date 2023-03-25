@@ -8,11 +8,11 @@ type Props = {
 const Title = (props: Props) => {
     let index = 0
     return (
-        <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+        <h3 className="mb-1 flex items-center text-lg font-semibold text-gray-900 dark:text-white">
             {props.children}
             {props.tags !== undefined && props.tags.length > 0 && props.tags.map((tag: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | ReactFragment | ReactPortal | null | undefined) => (
                 <span key={(index++).toString().toLowerCase()}
-                      className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
+                      className="mr-2 ml-3 rounded bg-blue-100 px-2.5 py-0.5 text-sm font-medium text-blue-800 dark:bg-blue-200 dark:text-blue-800">
                     {tag}
                 </span>
             ))}

@@ -10,7 +10,7 @@ const Work = (props: Type) => {
     return (
         <Item>
             <Icon>
-                <Briefcase className="w-4 h-4 7hover:scale-125 transform-gpu fill-blue-500"/>
+                <Briefcase className="7hover:scale-125 h-4 w-4 transform-gpu fill-blue-500"/>
             </Icon>
             <Title tags={props.tags}>
                 {props.title}

@@ -11,7 +11,7 @@ const Feature = (props: Type) => {
     return (
         <ItemWrapper>
             <IconWrapper>
-                <Sparkles className="w-4 h-4 hover:scale-125 transform-gpu fill-blue-500"/>
+                <Sparkles className="h-4 w-4 transform-gpu fill-blue-500 hover:scale-125"/>
             </IconWrapper>
             <Title tags={props.tags}>
                 {props.title}

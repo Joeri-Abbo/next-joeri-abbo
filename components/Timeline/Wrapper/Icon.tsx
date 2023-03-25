@@ -3,7 +3,7 @@ import ChildrenType from "../../Utilities/ChildrenType";
 const Icon = (props: ChildrenType) => {
     return (
         <span
-            className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+            className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-200 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900">
             {props.children}
         </span>
     )

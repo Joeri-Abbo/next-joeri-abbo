@@ -6,10 +6,10 @@ import ThemeSwitcher from "../components/Sections/Header/ThemeSwitcher";
 const Header = () => {
     return (
         <header
-            className="h-15 shadow-sm sticky top-0 z-30 w-full px-2 py-4 sm:px-4 shadow-xl relative dark:bg-black bg-white ">
-            <div className="px-2 sm:px-3 py-2 flex justify-between items-center z-100">
+            className="h-15 relative sticky top-0 z-30 w-full bg-white px-2 py-4 shadow-sm shadow-xl dark:bg-black sm:px-4">
+            <div className="z-100 flex items-center justify-between px-2 py-2 sm:px-3">
                 <Logo/>
-                <div className="flex gap-6 items-center">
+                <div className="flex items-center gap-6">
                     <Socials/>
                     <ThemeSwitcher/>
                     <LanguageSwitcher/>

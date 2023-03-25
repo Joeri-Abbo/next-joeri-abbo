@@ -8,12 +8,11 @@ const Project = (project: Type) => {
 
     return (
         <a key={id} href={project.href}
-           className="my-8 rounded shadow-lg shadow-gray-200 dark:shadow-gray-900 bg-white dark:bg-gray-800
-                duration-300 hover:-translate-y-1">
+           className="my-8 rounded bg-white shadow-lg shadow-gray-200 duration-300 hover:-translate-y-1 dark:bg-gray-800 dark:shadow-gray-900">
             <figure>
                 <div className="relative">
                     <Image src={project.image}
-                           className="rounded-t w-full" alt="Me" width="600" height="600"/>
+                           className="w-full rounded-t" alt="Me" width="600" height="600"/>
                     <div className="absolute bottom-0 m-auto w-full">
                         <Tags tags={project.tags}/>
                     </div>
@@ -21,7 +20,7 @@ const Project = (project: Type) => {
  
                 <figcaption className="p-4">
                     <p
-                        className="text-lg mb-4 font-bold leading-relaxed text-gray-800 dark:text-gray-300">
+                        className="mb-4 text-lg font-bold leading-relaxed text-gray-800 dark:text-gray-300">
                         {project.title}
                     </p>
                     <small

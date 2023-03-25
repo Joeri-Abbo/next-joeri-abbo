@@ -6,8 +6,8 @@ type Props = {
 };
 const ScrollDown = (props: Props) => {
     return (
-        <Link href={props.href} className="flex content-center justify-center rotate-180">
-            <ArrowUp className="w-8 h-8 fill-blue-500 dark:fill-white animate-bounce" role="button"/>
+        <Link href={props.href} className="flex rotate-180 content-center justify-center">
+            <ArrowUp className="h-8 w-8 animate-bounce fill-blue-500 dark:fill-white" role="button"/>
         </Link>
     )
 }

@@ -2,7 +2,7 @@ import ChildrenType from "./ChildrenType";
 
 const Title = (props: ChildrenType) => {
     return (
-        <div className="text-2xl min-h-[90px]">
+        <div className="min-h-[90px] text-2xl">
             {props.children}
         </div>
     )

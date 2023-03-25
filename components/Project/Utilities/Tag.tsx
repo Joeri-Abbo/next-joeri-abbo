@@ -3,7 +3,7 @@ import ChildrenType from "../../Utilities/ChildrenType";
 const Tag = (tag: ChildrenType) => {
 
     return (
-        <div className="text-sm bg-blue-500 rounded text-white p-1 m-2">
+        <div className="m-2 rounded bg-blue-500 p-1 text-sm text-white">
             {tag.children}
         </div>
     )

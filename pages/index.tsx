@@ -71,8 +71,8 @@ export default function Home() {
                             </div>
                         </Box>
                         <Box>
-                            <div className="flex h-full lg:justify-end justify-center">
-                                <Image src="/hero.jpeg" className="rounded-full object-cover h-80 w-80 object-left"
+                            <div className="flex h-full justify-center lg:justify-end">
+                                <Image src="/hero.jpeg" className="h-80 w-80 rounded-full object-cover object-left"
                                        alt="Me"
                                        width="600" height="600"/>
                             </div>
