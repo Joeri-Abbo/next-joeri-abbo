@@ -1,4 +1,4 @@
-name: Fetch packages
+name: "3 parties: Update Packagist"
 on:
   workflow_dispatch:
   schedule:
