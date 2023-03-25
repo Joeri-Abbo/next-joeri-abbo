@@ -11,7 +11,7 @@ const Badges = ({badge}: Props) => {
             <a href={"https://www.credly.com/badges/" + badge.id} target="_blank" rel="noreferrer"
                title={badge.name}>
                 <Image src={badge.image_url}
-                       className="hover:scale-125" alt="Me" width="180" height="180"/>
+                       className="hover:scale-125 m-auto" alt="Me" width="180" height="180"/>
             </a>
         </div>
     )
