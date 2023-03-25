@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
-import Col3 from "../Utilities/Col3";
-import Project from "./Project";
-import ProjectType from "./ProjectType";
+import Col3 from "../../Utilities/Col3";
+import Project from "../Project";
+import Type from "../Type";
 import Tag from "./Tag";
 
 type Tags = {

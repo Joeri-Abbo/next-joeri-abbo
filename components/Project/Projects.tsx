@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import Col3 from "../Utilities/Col3";
 import Project from "./Project";
-import ProjectType from "./ProjectType";
+import Type from "./Type";
 
 type Props = {
     src: string,
@@ -31,7 +31,7 @@ const Projects = (props: Props) => {
         <Col3>
 
             {/*@ts-ignore*/}
-            {projects && Object.keys(projects).length > 0 && projects.map((project: ProjectType, index) => (
+            {projects && Object.keys(projects).length > 0 && projects.map((project: Type, index) => (
                 <Project tags={project.tags} description={project.description} image={project.image}
                          title={project.title} href={project.href} key={index}/>
             ))}

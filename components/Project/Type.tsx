@@ -1,8 +1,8 @@
-type ProjectType = {
+type Type = {
     image: string,
     title: string,
     href: string,
     description: string,
     tags?: any,
 }
-export default ProjectType;
+export default Type;

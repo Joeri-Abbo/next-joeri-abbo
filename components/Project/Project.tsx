@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React, {useId} from 'react'
-import ProjectType from "./ProjectType";
-import Tags from "./Tags";
+import Type from "./Type";
+import Tags from "./Utilities/Tags";
 
-const Project = (project: ProjectType) => {
+const Project = (project: Type) => {
     const id = useId();
 
     return (
