@@ -20,6 +20,7 @@ import Image from "next/image";
 import Col4 from "../components/Utilities/Col4";
 import i18n from "i18next";
 import Badges from "../components/Badge/Badges";
+import CenterButton from "../components/Utilities/CenterButton";
 
 export default function Home() {
     return (
@@ -167,17 +168,13 @@ export default function Home() {
                             Verschillende onderdelen
                         </FeatureItem>
                     </Timeline>
-                    <div className={"flex justify-center"}>
-                        <Button href="/timeline">
-                            Bekijk timeline
-                        </Button>
-                    </div>
+                    <CenterButton href="/timeline">
+                        Bekijk timeline
+                    </CenterButton>
                     <Projects src={"/rest/" + i18n.language + "/home/projects.json"} amount={10}/>
-                    <div className={"flex justify-center"}>
-                        <Button href="/projects">
-                            Meer projecten
-                        </Button>
-                    </div>
+                    <CenterButton href="/projects">
+                        Meer projecten
+                    </CenterButton>
                     <Badges/>
                     <Quote name="Uncle Ben">
                         with great power comes great responsibility
