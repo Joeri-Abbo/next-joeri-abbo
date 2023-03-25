@@ -18,7 +18,7 @@ const Project = (project: ProjectType) => {
                         <Tags tags={project.tags}/>
                     </div>
                 </div>
-
+ 
                 <figcaption className="p-4">
                     <p
                         className="text-lg mb-4 font-bold leading-relaxed text-gray-800 dark:text-gray-300">
