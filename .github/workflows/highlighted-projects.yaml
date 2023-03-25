@@ -1,0 +1,23 @@
+name: "highlighted projects"
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'public/rest/en/projects.json'
+      - 'public/rest/nl/projects.json'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 'pypy3.8'
+          architecture: x64
+      - name: Update highlighted projects list
+        run: cd ${GITHUB_WORKSPACE}/python/highlighted-projects && python main.py
+      - uses: stefanzweifel/git-auto-commit-action@v4.16.0
+        with:
+          commit_message: "Update highlighted projects list"
