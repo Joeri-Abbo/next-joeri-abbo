@@ -168,7 +168,7 @@ export default function Home() {
                         </FeatureItem>
                     </Timeline>
                     <div className={"flex justify-center"}>
-                        <Button href="/projects">
+                        <Button href="/timeline">
                             Bekijk timeline
                         </Button>
                     </div>
