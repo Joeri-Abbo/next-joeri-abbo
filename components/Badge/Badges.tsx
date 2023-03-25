@@ -8,7 +8,6 @@ const Badges = () => {
     const [loading, setLoading] = useState(false);
     useEffect(() => {
         if (!loading) {
-            console.log("Loading badges...")
             setLoading(true)
             fetch('3parties/credly.json', {
                 headers: {

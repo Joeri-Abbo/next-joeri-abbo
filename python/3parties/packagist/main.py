@@ -35,7 +35,7 @@ if __name__ == '__main__':
         print('No packages found')
         exit(1)
 
-    with open('../../public/3parties/packagist.json', 'w') as fp:
+    with open('../../../public/3parties/packagist.json', 'w') as fp:
         json.dump(packages_processed, fp)
 
     print('Done')

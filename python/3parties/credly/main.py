@@ -13,7 +13,7 @@ if __name__ == '__main__':
                 'image_url': badge.get('badge_template').get('image').get('url'),
                 'id': badge.get('id'),
             })
-    with open('../../public/3parties/credly.json', 'w') as fp:
+    with open('../../../public/3parties/credly.json', 'w') as fp:
         json.dump(badges, fp)
 
     print('Done')

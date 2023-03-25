@@ -170,7 +170,17 @@ export default function Home() {
                             Verschillende onderdelen
                         </FeatureItem>
                     </Timeline>
-                    <Projects src={"/rest/" + i18n.language + "/projects.json"} amount={10}/>
+                    <div className={"flex justify-center"}>
+                        <Button href="/projects">
+                            Bekijk timeline
+                        </Button>
+                    </div>
+                    <Projects src={"/rest/" + i18n.language + "/home/projects.json"} amount={10}/>
+                    <div className={"flex justify-center"}>
+                        <Button href="/projects">
+                            Meer projecten
+                        </Button>
+                    </div>
                     <Badges/>
                     <Quote name="Uncle Ben">
                         with great power comes great responsibility

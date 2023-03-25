@@ -36,4 +36,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-3parties/.idea/
+python/3parties/.idea/
