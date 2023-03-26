@@ -4,13 +4,12 @@ import Project from "./Project";
 import Type from "./Type";
 
 type Props = {
-    src: string,
-    amount: number,
+    src: string
 };
 
 const Projects = (props: Props) => {
 
-    const [projects, setProjects] = useState({});
+    const [projects, setProjects] = useState<Type[]>([]);
     const [loading, setLoading] = useState(false);
     useEffect(() => {
         if (!loading) {
@@ -29,12 +28,14 @@ const Projects = (props: Props) => {
 
     return (
         <Col3>
-
-            {/*@ts-ignore*/}
-            {projects && Object.keys(projects).length > 0 && projects.map((project: Type, index) => (
-                <Project tags={project.tags} description={project.description} image={project.image}
-                         title={project.title} href={project.href} key={index}/>
-            ))}
+            {projects.length > 0 ? (
+                projects.map((project: Type, index) => (
+                    <Project tags={project.tags} description={project.description} image={project.image}
+                             title={project.title} href={project.href} key={index}/>
+                ))
+            ) : (
+                <div>No projects to display</div>
+            )}
         </Col3>
     )
 }

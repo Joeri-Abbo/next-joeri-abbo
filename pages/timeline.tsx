@@ -26,24 +26,13 @@ export default function Home() {
         <>
             <Layout>
                 <Head>
-                    <title>Projects | Joeri Abbo</title>
+                    <title>Timeline | Joeri Abbo</title>
                     <meta name="description" content="Een pad van UX developer naar Devops en Cloud engineer"/>
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
                     <link rel="icon" href="/favicon.ico"/>
                 </Head>
                 <main className="">
-                    <Timeline>
-                        <Course time="Vandaag" title="AWS course" tags={["1.0.2", "latest"]} downloadHref="#">
-                            Verschillende onderdelen
-                        </Course>
-                        <Work time="Vandaag" title="Gestart bij Tracefy" tags={["1.0.1"]}>
-                            Verschillende onderdelen
-                        </Work>
-                        <FeatureItem downloadHref="#" time="Vandaag" title="Start DevOps Bootcamp | Tech world met Nana"
-                                     tags={["feature/devops"]}>
-                            Verschillende onderdelen
-                        </FeatureItem>
-                    </Timeline>
+                    <Timeline src={"/rest/" + i18n.language + "/timeline.json"}/>
                 </main>
             </Layout>
         </>

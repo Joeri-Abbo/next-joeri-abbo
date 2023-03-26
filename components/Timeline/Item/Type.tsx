@@ -1,8 +1,11 @@
 type Type = {
+    type: string,
+    time: string,
+    title: string,
+    tags: string[],
     downloadHref?: string,
-    children: JSX.Element[] | JSX.Element | string
-    time: JSX.Element[] | JSX.Element | string
-    title: JSX.Element[] | JSX.Element | string,
-    tags?: any
-};
+    externalHref?: string,
+    description: string
+
+}
 export default Type;

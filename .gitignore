@@ -37,3 +37,6 @@ yarn-error.log*
 next-env.d.ts
 
 python/3parties/.idea/
+python/.idea/
+python/highlighted-timeline/.idea/
+python/highlighted-projects/.idea/

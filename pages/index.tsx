@@ -5,16 +5,12 @@ import Quote from "../components/Quote";
 import CallToAction from "../components/CallToAction";
 import UnderlineLink from "../components/Utilities/UnderlineLink";
 import Timeline from "../components/Timeline/Timeline";
-import Course from "../components/Timeline/Item/Course";
-import Work from "../components/Timeline/Item/Work";
-import FeatureItem from "../components/Timeline/Item/Feature";
 import ScrollDown from "../components/Utilities/ScrollDown";
 import Projects from "../components/Project/Projects";
 import Col2 from "../components/Utilities/Col2";
 import Box from "../components/Utilities/Box";
 import Title from "../components/Utilities/Title";
 import {TypeAnimation} from "react-type-animation";
-import Button from "../components/Utilities/Button";
 import Socials from "../components/Socials";
 import Image from "next/image";
 import Col4 from "../components/Utilities/Col4";
@@ -156,22 +152,11 @@ export default function Home() {
                             </ul>
                         </Box>
                     </Col4>
-                    <Timeline>
-                        <Course time="Vandaag" title="AWS course" tags={["1.0.2", "latest"]} downloadHref="#">
-                            Verschillende onderdelen
-                        </Course>
-                        <Work time="Vandaag" title="Gestart bij Tracefy" tags={["1.0.1"]}>
-                            Verschillende onderdelen
-                        </Work>
-                        <FeatureItem downloadHref="#" time="Vandaag" title="Start DevOps Bootcamp | Tech world met Nana"
-                                     tags={["feature/devops"]}>
-                            Verschillende onderdelen
-                        </FeatureItem>
-                    </Timeline>
+                    <Timeline src={"/rest/" + i18n.language + "/home/timeline.json"}/>
                     <CenterButton href="/timeline">
                         Bekijk timeline
                     </CenterButton>
-                    <Projects src={"/rest/" + i18n.language + "/home/projects.json"} amount={10}/>
+                    <Projects src={"/rest/" + i18n.language + "/home/projects.json"}/>
                     <CenterButton href="/projects">
                         Meer projecten
                     </CenterButton>

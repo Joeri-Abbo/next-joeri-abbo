@@ -6,23 +6,28 @@ import IconWrapper from "../Wrapper/Icon";
 import ItemWrapper from "../Wrapper/Item";
 import Download from "../Button/Download";
 import Type from "./Type";
+import External from "../Button/External";
 
-const Feature = (props: Type) => {
+type Props = {
+    item: Type
+};
+const Feature = ({item}: Props) => {
     return (
         <ItemWrapper>
             <IconWrapper>
                 <Sparkles className="h-4 w-4 transform-gpu fill-blue-500 hover:scale-125"/>
             </IconWrapper>
-            <Title tags={props.tags}>
-                {props.title}
+            <Title tags={item.tags}>
+                {item.title}
             </Title>
             <Time>
-                {props.time}
+                {item.time}
             </Time>
             <Text>
-                {props.children}
+                {item.description}
             </Text>
-            <Download href={props.downloadHref}/>
+            <Download href={item.downloadHref}/>
+            <External href={item.externalHref}/>
         </ItemWrapper>
     )
 }

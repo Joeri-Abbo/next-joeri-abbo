@@ -6,20 +6,23 @@ import Time from "../Utilities/Time";
 import Text from "../Utilities/Text";
 import Type from "./Type";
 
-const Work = (props: Type) => {
+type Props = {
+    item: Type
+};
+const Work = ({item}: Props) => {
     return (
         <Item>
             <Icon>
                 <Briefcase className="7hover:scale-125 h-4 w-4 transform-gpu fill-blue-500"/>
             </Icon>
-            <Title tags={props.tags}>
-                {props.title}
+            <Title tags={item.tags}>
+                {item.title}
             </Title>
             <Time>
-                {props.time}
+                {item.time}
             </Time>
             <Text>
-                {props.children}
+                {item.description}
             </Text>
         </Item>
     )
