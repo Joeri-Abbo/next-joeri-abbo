@@ -32,7 +32,6 @@ function ThemeSwitcher() {
         }
     };
 
-
     return (
         <div>
             {renderThemeChanger()}

@@ -1,7 +1,7 @@
 import MarsRover from "../../../public/icons/mars-rover.svg";
 import styles from "../../../styles/Footer.module.css";
 
-const RoverWrapper = () => {
+const Rover = () => {
     return (
         <div className="relative h-8 overflow-hidden p-0">
             <div>
@@ -11,4 +11,4 @@ const RoverWrapper = () => {
         </div>
     )
 }
-export default RoverWrapper;
+export default Rover;

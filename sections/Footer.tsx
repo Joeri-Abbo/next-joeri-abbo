@@ -1,5 +1,5 @@
 import ToTop from "../components/Sections/Footer/ToTop";
-import RoverWrapper from "../components/Sections/Footer/RoverWrapper";
+import Rover from "../components/Sections/Footer/Rover";
 import Copyright from "../components/Sections/Footer/Copyright";
 
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="relative mt-24 pt-6">
             <ToTop/>
             <Copyright/>
-            <RoverWrapper/>
+            <Rover/>
         </footer>
     );
 };
