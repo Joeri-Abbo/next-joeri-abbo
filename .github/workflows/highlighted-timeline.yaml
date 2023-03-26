@@ -1,4 +1,4 @@
-name: "highlighted projects"
+name: "Highlighted timeline"
 on:
   workflow_dispatch:
   push:

@@ -10,4 +10,4 @@ def update_home_timeline(lang):
 
 if __name__ == '__main__':
     for lang in ['en', 'nl']:
-        update_home_projects(lang)
+        update_home_timeline(lang)
