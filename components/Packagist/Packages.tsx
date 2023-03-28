@@ -1,36 +1,36 @@
 import {useEffect, useState} from "react";
-import Col6 from "../Utilities/Col6";
-import Badge from "./Badge";
+import Col4 from "../Utilities/Col4";
 import Type from "./Type";
+import Package from "./Package";
 
-const Badges = () => {
-    const [badges, setBadges] = useState<Type[]>([]);
+const Packages = () => {
+    const [packages, setPackages] = useState<Type[]>([]);
     const [loading, setLoading] = useState(false);
     useEffect(() => {
         if (!loading) {
             setLoading(true)
-            fetch('3parties/credly.json', {
+            fetch('3parties/packagist.json', {
                 headers: {
                     'Content-Type': 'application/json'
                 },
             })
                 .then((response) => response.json())
                 .then((data) => {
-                    setBadges(data)
+                    setPackages(data)
                 })
         }
-    }, [loading, badges]);
+    }, [loading, packages]);
 
     return (
-        <Col6>
-            {badges.length > 0 ? (
-                badges.map((badge: Type) => (
-                    <Badge badge={badge} key={badge.id}/>
+        <Col4>
+            {packages.length > 0 ? (
+                packages.map((item: Type, index) => (
+                    <Package item={item} key={index}/>
                 ))
             ) : (
-                <div>No badges to display</div>
+                <div>No package to display</div>
             )}
-        </Col6>
+        </Col4>
     )
 }
-export default Badges;
+export default Packages;

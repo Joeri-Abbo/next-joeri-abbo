@@ -25,7 +25,6 @@ const Timeline = (props: Props) => {
         }
     }, [loading, items, props.src]);
 
-    console.log(items)
     return (
         <ol className="relative border-l border-gray-200 dark:border-gray-700">
             {items.length > 0 ? (

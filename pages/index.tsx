@@ -17,6 +17,7 @@ import Col4 from "../components/Utilities/Col4";
 import i18n from "i18next";
 import Badges from "../components/Badge/Badges";
 import CenterButton from "../components/Utilities/CenterButton";
+import Packages from "../components/Packagist/Packages";
 
 export default function Home() {
     return (
@@ -164,6 +165,8 @@ export default function Home() {
                     <Quote name="Uncle Ben">
                         with great power comes great responsibility
                     </Quote>
+                    <Packages/>
+
                     <CallToAction title="Koffietje doen?">
                         <p>
                             Stuur mij dan een berichtje op <UnderlineLink

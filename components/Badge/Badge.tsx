@@ -5,7 +5,7 @@ import React from "react";
 type Props = {
     badge: Type
 }
-const Badges = ({badge}: Props) => {
+const Badge = ({badge}: Props) => {
     return (
         <div key={badge.id}>
             <a href={"https://www.credly.com/badges/" + badge.id} target="_blank" rel="noreferrer"
@@ -16,4 +16,4 @@ const Badges = ({badge}: Props) => {
         </div>
     )
 }
-export default Badges;
+export default Badge;

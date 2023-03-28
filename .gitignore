@@ -37,6 +37,8 @@ yarn-error.log*
 next-env.d.ts
 
 python/3parties/.idea/
+python/3parties/packagist/.idea/
+python/3parties/credly/.idea/
 python/.idea/
 python/highlighted-timeline/.idea/
 python/highlighted-projects/.idea/

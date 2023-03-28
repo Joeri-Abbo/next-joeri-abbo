@@ -2,10 +2,10 @@ import json
 
 
 def update_home_timeline(lang):
-    with open('../../public/rest/{}/timeline.json'.format(lang)) as f:
-        data = json.load(f)
-    with open('../../public/rest/{}/home/timeline.json'.format(lang), 'w') as fp:
-        json.dump(data[:3], fp)
+    with open(f'../../public/rest/{lang}/timeline.json') as f:
+        data = json.load(f)[:3]
+    with open(f'../../public/rest/{lang}/home/timeline.json', 'w') as fp:
+        json.dump(data, fp)
 
 
 if __name__ == '__main__':

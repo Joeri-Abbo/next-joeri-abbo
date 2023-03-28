@@ -1,7 +1,10 @@
 type Type = {
-    id: string,
     name: string,
-    image_url: string,
+    description: string,
+    downloads: number,
+    url: string,
+    github_url: string,
+    tags: string[]
 };
 
 export default Type;
