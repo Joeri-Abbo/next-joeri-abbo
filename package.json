@@ -33,7 +33,7 @@
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
     "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.7"
+    "tailwindcss": "^3.3.0"
   },
   "browser": {
     "fs": false,
