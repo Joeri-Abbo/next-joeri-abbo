@@ -15,9 +15,9 @@ jobs:
           python-version: 'pypy3.8'
           architecture: x64
       - name: Install dependencies
-        run: cd ${GITHUB_WORKSPACE}/python/3parties/packagist &&  pip install -r requirements.txt
+        run: cd ${GITHUB_WORKSPACE}/python/3parties/credly &&  pip install -r requirements.txt
       - name: Fetch packages
-        run: cd ${GITHUB_WORKSPACE}/python/3parties/packagist && python main.py
+        run: cd ${GITHUB_WORKSPACE}/python/3parties/credly && python main.py
       - uses: stefanzweifel/git-auto-commit-action@v4.16.0
         with:
           commit_message: "3 parties: Update credly list"
