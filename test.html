@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Animation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .logo {
+            position: absolute;
+            transition: transform 5s ease-in-out;
+        }
+
+        .logo:hover::after {
+            content: attr(data-description);
+            position: absolute;
+            padding: 8px;
+            background-color: black;
+            color: white;
+            border-radius: 8px;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+<div id="logoContainer" class="relative h-screen"
+     data-logos='[
+         {"src": "logo1.png", "description": "Logo 1 Description"},
+         {"src": "logo2.png", "description": "Logo 2 Description"}
+     ]'>
+    <!-- Logos will be added here dynamically -->
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const logoContainer = document.getElementById('logoContainer');
+        const logosData = JSON.parse(logoContainer.getAttribute('data-logos'));
+        let logos = [];
+
+        logosData.forEach((logo, index) => {
+            const logoElement = document.createElement('div');
+            logoElement.classList.add('logo', 'w-20', 'h-20');
+            logoElement.setAttribute('data-description', logo.description);
+            logoElement.setAttribute('data-isHovered', false);
+            logoElement.innerHTML = `<img src="${logo.src}" alt="Logo ${index + 1}" class="w-full h-full object-contain">`;
+            logoContainer.appendChild(logoElement);
+            logos.push(logoElement);
+            moveLogo(logoElement); // Initial move
+        });
+
+        function moveLogo(logoElement) {
+            if (logoElement.getAttribute('data-isHovered') === 'false') {
+                const newX = Math.random() * 100;
+                const newY = Math.random() * 100;
+                logoElement.style.transform = `translate(${newX}vw, ${newY}vh)`;
+                console.log(`Logo moved to (${newX.toFixed(2)}vw, ${newY.toFixed(2)}vh)`);
+            }
+        }
+
+        // Global timer for movement
+        setInterval(() => {
+            logos.forEach(moveLogo);
+        }, 5000);
+
+        // Event listeners for mouseover and mouseout
+        logos.forEach(logoElement => {
+            logoElement.addEventListener('mouseover', () => {
+                logoElement.setAttribute('data-isHovered', true);
+                // Get current position of logo do not use transform property
+                const logoRect = logoElement.getBoundingClientRect();
+                console.log(logoRect.top, logoRect.right, logoRect.bottom, logoRect.left);
+                // get cursor position
+                const cursorX = event.clientX;
+                const cursorY = event.clientY;
+                // Calculate new position of logo
+                const newX = cursorX - logoRect.width / 2;
+                const newY = cursorY - logoRect.height / 2;
+                // Set new position of logo
+                logoElement.style.transform = `translate(${newX}px, ${newY}px)`;
+                console.log('Mouse over - logo will change direction on next move');
+            });
+
+            logoElement.addEventListener('mouseout', () => {
+                logoElement.setAttribute('data-isHovered', false);
+                console.log('Mouse out - logo can move freely');
+            });
+        });
+    });
+</script>
+</body>
+</html>

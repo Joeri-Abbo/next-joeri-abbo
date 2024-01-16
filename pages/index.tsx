@@ -11,13 +11,13 @@ import Col2 from "../components/Utilities/Col2";
 import Box from "../components/Utilities/Box";
 import Title from "../components/Utilities/Title";
 import {TypeAnimation} from "react-type-animation";
-import Socials from "../components/Socials";
 import Image from "next/image";
 import Col4 from "../components/Utilities/Col4";
 import i18n from "i18next";
 import Badges from "../components/Badge/Badges";
 import CenterButton from "../components/Utilities/CenterButton";
-import Packages from "../components/Packagist/Packages";
+import TimelineV2 from "../components/Timeline/TimelineV2";
+import Skills from "../components/Skills/Skills";
 
 export default function Home() {
     return (
@@ -30,56 +30,66 @@ export default function Home() {
                     <link rel="icon" href="/favicon.ico"/>
                 </Head>
                 <main className="">
-                    <Col2>
-                        <Box>
-                            <div className="flex h-full">
-                                <div className="mt-auto mb-auto">
-                                    <div>
-                                        <Title>
-                                            <TypeAnimation
-                                                sequence={[
-                                                    'Ik ben een Backend developer',
-                                                    2000,
-                                                    'Ik ben een Frontend developer',
-                                                    2000,
-                                                    'Ik ben een Fullstack developer',
-                                                    2000,
-                                                    'Ik ben een Devops engineer',
-                                                    2000,
-                                                    'Ik ben een Cloud architect',
-                                                    2000,
-                                                    'Ik ben een Devops architect',
-                                                    2000,
-                                                ]}
-                                                speed={30}
-                                                style={{fontSize: '2em', width: '100%'}}
-                                                wrapper="span"
-                                                repeat={Infinity}
-                                            />
-                                        </Title>
-                                        <div>
-                                            Test
-                                        </div>
-                                    </div>
-                                    <Socials/>
+                    <div className={"h-[80vh]"}>
+                        <Col2>
+                            <div className={"lg:h-[60vh] flex mt-24"}>
+                                <div className="justify-center content-center">
+                                    <h1 className="text-6xl text-blue-500">
+                                        Joeri Abbo
+                                    </h1>
+                                    <Title>
+                                        <TypeAnimation
+                                            sequence={[
+                                                'Ik ben een Backend developer',
+                                                2000,
+                                                'Ik ben een Frontend developer',
+                                                2000,
+                                                'Ik ben een Fullstack developer',
+                                                2000,
+                                                'Ik ben een Devops engineer',
+                                                2000,
+                                                'Ik ben een Cloud architect',
+                                                2000,
+                                                'Ik ben een Devops architect',
+                                                2000,
+                                                'Ik ben een Hobby kok',
+                                                2000,
+                                                'Ik ben een Nerd',
+                                                2000,
+                                                'Ik ben een Platform engineer',
+                                                2000,
+                                                'Ik ben een AWS specialist',
+                                                2000,
+                                            ]}
+                                            speed={30}
+                                            style={{fontSize: '1.4em', width: '100%'}}
+                                            wrapper="span"
+                                            repeat={Infinity}
+                                            random={true}
+                                        />
+                                    </Title>
                                 </div>
                             </div>
-                        </Box>
-                        <Box>
-                            <div className="flex h-full justify-center lg:justify-end">
-                                <Image src="/hero.jpeg" className="h-80 w-80 rounded-full object-cover object-left"
-                                       alt="Me"
-                                       width="600" height="600"/>
-                            </div>
-                        </Box>
-                    </Col2>
-                    <ScrollDown href="/#quote"/>
+                            <Box>
+                                <div className="flex h-full justify-center lg:justify-end">
+                                    <Image src="/hero.jpeg" className="h-80 w-80 rounded-full object-cover object-left"
+                                           alt="Me"
+                                           width="600" height="600"/>
+                                </div>
+                            </Box>
+                        </Col2>
+                        <ScrollDown href="/#quote"/>
+                    </div>
 
                     <ScrollableAnchor id="quote">
                         <Quote name="Gene Kranz">
                             Failure is not an option
                         </Quote>
                     </ScrollableAnchor>
+                    {/*<Skills logos={[*/}
+                    {/*    {src: 'logo1.png', description: 'Logo 1 Description'},*/}
+                    {/*    {src: 'logo2.png', description: 'Logo 2 Description'}*/}
+                    {/*]}/>*/}
                     <Col4>
                         <Box>
                             <h3>
@@ -153,7 +163,9 @@ export default function Home() {
                             </ul>
                         </Box>
                     </Col4>
-                    <Timeline src={"/rest/" + i18n.language + "/home/timeline.json"}/>
+                    {/*<Timeline src={"/rest/" + i18n.language + "/home/timeline.json"}/>*/}
+
+                    <TimelineV2 src={"/rest/" + i18n.language + "/home/timeline.json"}/>
                     <CenterButton href="/timeline">
                         Bekijk timeline
                     </CenterButton>
@@ -161,11 +173,14 @@ export default function Home() {
                     <CenterButton href="/projects">
                         Meer projecten
                     </CenterButton>
-                    <Badges/>
                     <Quote name="Uncle Ben">
                         with great power comes great responsibility
                     </Quote>
-                    <Packages/>
+                    <Badges/>
+
+                    {/*<Packages/>*/}
+                    <Quote name="Joeri Abbo"
+                           children={" Werken is als dansen, soms gaat het goed en soms sta je op iemands tenen"}/>
 
                     <CallToAction title="Koffietje doen?">
                         <p>

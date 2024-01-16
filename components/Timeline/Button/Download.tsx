@@ -3,6 +3,7 @@ import Base from "./Base";
 import Type from "./Type";
 
 const Download = (props: Type) => {
+    if (props.href === undefined || props.href === "") return null;
     return (
         <Base href={props.href}>
             <span className="flex">
