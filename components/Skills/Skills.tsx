@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import Image from "next/image";
 
 interface Logo {
     src: string;
@@ -74,7 +75,7 @@ const Skills: React.FC<LogoAnimationProps> = ({logos}) => {
                     onMouseOut={() => handleMouseOut(index)}
                     style={logo.style}
                 >
-                    <img
+                    <Image
                         src={logo.src}
                         alt={`Logo ${index + 1}`}
                         className="w-full h-full object-contain"

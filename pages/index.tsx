@@ -65,7 +65,6 @@ export default function Home() {
                                             style={{fontSize: '1.4em', width: '100%'}}
                                             wrapper="span"
                                             repeat={Infinity}
-                                            random={true}
                                         />
                                     </Title>
                                 </div>
@@ -179,8 +178,9 @@ export default function Home() {
                     <Badges/>
 
                     {/*<Packages/>*/}
-                    <Quote name="Joeri Abbo"
-                           children={" Werken is als dansen, soms gaat het goed en soms sta je op iemands tenen"}/>
+                    <Quote name="Joeri Abbo">
+                        Werken is als dansen, soms gaat het goed en soms sta je op iemands tenen
+                    </Quote>
 
                     <CallToAction title="Koffietje doen?">
                         <p>
