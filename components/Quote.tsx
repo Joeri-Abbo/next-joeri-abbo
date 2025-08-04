@@ -1,7 +1,8 @@
+import React from 'react';
 import Underline from "../public/underline.svg";
 
 type Props = {
-    children: JSX.Element[] | JSX.Element | string
+    children: React.ReactNode
     name?: string | null
 };
 const Quote = (props: Props) => {

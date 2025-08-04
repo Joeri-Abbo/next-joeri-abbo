@@ -1,5 +1,7 @@
+import React from 'react';
+
 type Props = {
-    children: JSX.Element[] | JSX.Element | string
+    children: React.ReactNode
     href: string
 };
 const UnderlineLink = (props: Props) => {

@@ -1,5 +1,7 @@
+import React from 'react';
+
 type Props = {
-    children: JSX.Element[] | JSX.Element | string
+    children: React.ReactNode
     title?: string
 };
 const CallToAction = (props: Props) => {

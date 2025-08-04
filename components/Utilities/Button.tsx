@@ -1,7 +1,6 @@
 import ChildrenType from "./ChildrenType";
 
-type Props = {
-    children: JSX.Element[] | JSX.Element | string
+type Props = ChildrenType & {
     href: string
 };
 const Button = (props: Props) => {

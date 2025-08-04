@@ -1,10 +1,11 @@
+import React from 'react';
 import Header from "./Header";
 import Footer from "./Footer";
 import ScrollableAnchor from "../components/Utilities/ScrollableAnchor";
 import Main from "../components/Sections/Layout/Main";
 
 type Props = {
-    children: JSX.Element[] | JSX.Element | string
+    children: React.ReactNode
 };
 const Layout = (props: Props) => {
     return (

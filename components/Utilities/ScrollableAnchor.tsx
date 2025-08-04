@@ -1,9 +1,9 @@
-import {useEffect, useRef} from "react";
+import React, {useEffect, useRef} from "react";
 import {useRouter} from "next/router";
 
 type Props = {
     id: string;
-    children?: JSX.Element[] | JSX.Element | string
+    children?: React.ReactNode
 };
 
 const ScrollableAnchor = (props: Props) => {
