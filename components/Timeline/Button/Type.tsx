@@ -1,8 +1,7 @@
-import External from "../../../public/icons/external.svg"
-import Link from "next/link";
+import React from 'react';
 
 type Type = {
-    children?: JSX.Element[] | JSX.Element | string
-    href?: string | undefined
+    children?: React.ReactNode
+    href?: string
 };
 export default Type;

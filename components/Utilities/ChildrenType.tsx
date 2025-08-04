@@ -1,4 +1,6 @@
+import React from 'react';
+
 type ChildrenType = {
-    children: JSX.Element[] | JSX.Element | string
+    children: React.ReactNode
 }
 export default ChildrenType;

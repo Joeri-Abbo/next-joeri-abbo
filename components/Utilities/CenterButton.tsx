@@ -1,7 +1,8 @@
+import React from 'react';
 import Button from "./Button";
 
 type Props = {
-    children: JSX.Element[] | JSX.Element | string
+    children: React.ReactNode
     href: string
 };
 const CenterButton = (props: Props) => {

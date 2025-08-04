@@ -12,7 +12,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: 'pypy3.8'
+          python-version: 'pypy3.12'
           architecture: x64
       - name: Install dependencies
         run: cd ${GITHUB_WORKSPACE}/python/3parties/credly &&  pip install -r requirements.txt
