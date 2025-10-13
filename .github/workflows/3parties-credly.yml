@@ -17,6 +17,6 @@ jobs:
         run: cd ${GITHUB_WORKSPACE}/python/3parties/credly &&  pip install -r requirements.txt
       - name: Fetch packages
         run: cd ${GITHUB_WORKSPACE}/python/3parties/credly && python main.py
-      - uses: stefanzweifel/git-auto-commit-action@v6.0.1
+      - uses: stefanzweifel/git-auto-commit-action@v7.0.0
         with:
           commit_message: "3 parties: Update credly list"

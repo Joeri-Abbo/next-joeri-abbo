@@ -17,6 +17,6 @@ jobs:
           python-version: '3.13' 
       - name: Update highlighted projects list
         run: cd ${GITHUB_WORKSPACE}/python/highlighted-projects && python main.py
-      - uses: stefanzweifel/git-auto-commit-action@v6.0.1
+      - uses: stefanzweifel/git-auto-commit-action@v7.0.0
         with:
           commit_message: "Update highlighted projects list"
