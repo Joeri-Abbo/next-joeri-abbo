@@ -25,9 +25,9 @@ type SkillGroup = { title: string, icon: string, items: string[], span?: boolean
 
 const SkillCard = ({group}: { group: SkillGroup }) => (
     <div className={"group relative overflow-hidden rounded-3xl border border-gray-200/70 bg-white/70 p-6 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:shadow-xl hover:shadow-blue-500/10 dark:border-white/10 dark:bg-white/[0.03] " + (group.span ? "lg:col-span-2" : "")}>
-        <div aria-hidden className="pointer-events-none absolute -right-8 -top-8 h-24 w-24 rounded-full bg-gradient-to-br from-blue-500/20 to-indigo-500/20 opacity-0 blur-2xl transition-opacity duration-300 group-hover:opacity-100"/>
+        <div aria-hidden className="pointer-events-none absolute -right-8 -top-8 h-24 w-24 rounded-full bg-linear-to-br from-blue-500/20 to-indigo-500/20 opacity-0 blur-2xl transition-opacity duration-300 group-hover:opacity-100"/>
         <div className="relative mb-4 flex items-center gap-3">
-            <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500/15 to-indigo-500/15 text-lg ring-1 ring-inset ring-blue-500/20">
+            <span className="flex h-10 w-10 items-center justify-center rounded-2xl border border-blue-500/20 bg-linear-to-br from-blue-500/15 to-indigo-500/15 text-lg">
                 {group.icon}
             </span>
             <h3 className="font-semibold tracking-tight text-gray-900 dark:text-white">{group.title}</h3>
@@ -98,7 +98,7 @@ export default function Home() {
                         <Box>
                             <div className="flex h-full items-center justify-center lg:justify-end">
                                 <div className="relative">
-                                    <div aria-hidden className="absolute -inset-4 rounded-full bg-gradient-to-tr from-blue-500/30 to-indigo-500/30 blur-2xl"/>
+                                    <div aria-hidden className="absolute -inset-4 rounded-full bg-linear-to-tr from-blue-500/30 to-indigo-500/30 blur-2xl"/>
                                     <Image src="/hero.jpeg"
                                            className="relative h-72 w-72 rounded-full object-cover object-left shadow-2xl ring-4 ring-white dark:ring-gray-900 sm:h-80 sm:w-80"
                                            alt="Joeri Abbo"
@@ -159,7 +159,7 @@ export default function Home() {
                 </Quote>
 
                 <section className="my-20">
-                    <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-blue-500 to-indigo-600 px-6 py-14 text-center shadow-xl shadow-blue-500/20">
+                    <div className="relative overflow-hidden rounded-3xl bg-linear-to-br from-blue-500 to-indigo-600 px-6 py-14 text-center shadow-xl shadow-blue-500/20">
                         <div aria-hidden className="absolute inset-0 bg-[radial-gradient(40%_60%_at_85%_15%,rgba(255,255,255,0.18),transparent_60%)]"/>
                         <div className="relative">
                             <span className="text-5xl">☕</span>

@@ -1,16 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    webpack(config) {
-        config.module.rules.push({
-            test: /\.svg$/,
-            use: ["@svgr/webpack"]
-        });
-        const alias = {...config.resolve.alias}
-
-        delete alias.url // alias to native-url
-
-        return config;
+    turbopack: {
+        rules: {
+            '*.svg': {
+                loaders: ['@svgr/webpack'],
+                as: '*.js',
+            },
+        },
     },
     reactStrictMode: true,
 
