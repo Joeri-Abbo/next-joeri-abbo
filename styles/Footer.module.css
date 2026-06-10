@@ -39,4 +39,6 @@
 .mars_rover {
     animation-name: driving;
     animation-duration: 30s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }

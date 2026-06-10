@@ -1,3 +1,94 @@
 {
-  "copyright": "All Rights Reserved"
+  "copyright": "All Rights Reserved",
+  "nav": {
+    "home": "Home",
+    "timeline": "Timeline",
+    "projects": "Projects"
+  },
+  "meta": {
+    "home": {
+      "title": "Joeri Abbo | Mission Critical Engineer",
+      "description": "Joeri Abbo — Mission Critical Engineer at Schuberg Philis. DevOps, cloud architecture and AWS specialist from the Netherlands."
+    },
+    "timeline": {
+      "title": "Timeline | Joeri Abbo",
+      "description": "The career path of Joeri Abbo: from UX developer to DevOps engineer, cloud architect and Mission Critical Engineer."
+    },
+    "projects": {
+      "title": "Projects | Joeri Abbo",
+      "description": "Projects Joeri Abbo worked on: cloud migrations, infrastructure as code, web applications and e-commerce."
+    },
+    "notFound": {
+      "title": "404 | Joeri Abbo",
+      "description": "This page does not exist."
+    }
+  },
+  "hero": {
+    "subtitle": "Mission Critical Engineer @ Schuberg Philis",
+    "intro": "I'm an enthusiastic IT specialist with a passion for DevOps and cloud architecture. I've led successful projects and teams, and I love finding smart technical solutions.",
+    "badge": "Open to connect",
+    "location": "Hellevoetsluis, Netherlands",
+    "ctaConnect": "Let's connect",
+    "ctaCv": "Download CV",
+    "iam": "I am",
+    "roles": [
+      "a Mission Critical Engineer",
+      "an AWS specialist",
+      "a cloud architect",
+      "a DevOps engineer",
+      "a platform engineer",
+      "a full-stack developer",
+      "a hobby chef",
+      "a nerd",
+      "a Security Lead",
+      "an onboarding facilitator"
+    ]
+  },
+  "sections": {
+    "skillsTitle": "Skills & Tools",
+    "skillsSubtitle": "The languages, frameworks and platforms I work with day to day.",
+    "experienceTitle": "Experience",
+    "experienceSubtitle": "A path from UX developer to Mission Critical Engineer.",
+    "projectsTitle": "Featured Projects",
+    "projectsSubtitle": "A selection of work I'm proud of.",
+    "certificationsTitle": "Certifications & Badges"
+  },
+  "skills": {
+    "languages": "Languages",
+    "frameworks": "Frameworks",
+    "cloud": "Cloud & AWS",
+    "devops": "DevOps & CI/CD",
+    "monitoring": "Monitoring & Observability",
+    "databases": "Databases",
+    "os": "Operating systems"
+  },
+  "timeline": {
+    "viewFull": "View full timeline",
+    "visit": "Visit",
+    "loading": "Loading timeline…",
+    "empty": "No timeline items to display."
+  },
+  "projects": {
+    "viewMore": "More projects",
+    "loading": "Loading projects…",
+    "empty": "No projects to display."
+  },
+  "quotes": {
+    "dance": "Work is like dancing: sometimes it flows, and sometimes you step on someone's toes",
+    "danceAuthor": "Joeri Abbo"
+  },
+  "cta": {
+    "title": "Let's grab a coffee!",
+    "subtitle": "Got an interesting project, a question, or just want to chat about tech? I'd love to hear from you.",
+    "linkedin": "Connect on LinkedIn",
+    "email": "Send an email"
+  },
+  "footer": {
+    "tagline": "Mission Critical Engineer · Cloud & DevOps",
+    "backToTop": "Back to top"
+  },
+  "notFound": {
+    "message": "Oops, this page does not exist.",
+    "backHome": "Back to home"
+  }
 }

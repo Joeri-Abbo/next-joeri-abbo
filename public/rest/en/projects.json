@@ -3,7 +3,7 @@
     "image": "projects/raac.png",
     "title": "RAAC | Website",
     "href": "#",
-    "description": "RAAC is a company founded in 2012 that provides consultancy and auditing services while maintaining a commitment to quality, reliability, and creativity. We custom made a Next.js website for this client.",
+    "description": "RAAC is a company founded in 2012 that provides consultancy and auditing services with a commitment to quality, reliability and creativity. I built a custom static Next.js website for this client.",
     "tags": [
       "Corporate Website",
       "NextJS",
@@ -13,8 +13,8 @@
   {
     "image": "projects/tracefy.png",
     "title": "Tracefy | Backoffice",
-    "href": "#",
-    "description": "Tracefy is a company providing a platform for fleet management and tracking. I made a Laravel backoffice for this client. This application is used by the company's employees to automate their processes.",
+    "href": "https://tracefy.com/",
+    "description": "Tracefy provides a platform for fleet management and tracking. I built a Laravel backoffice used by the company's employees to automate their daily processes.",
     "tags": [
       "Web Application",
       "Laravel",
@@ -24,19 +24,19 @@
   {
     "image": "projects/tracefy.png",
     "title": "Tracefy | Infrastructure Migration",
-    "href": "#",
-    "description": "Tracefy had a problem with their infrastructure. They had a lot of servers and they were not able to manage them. I helped them to migrate their infrastructure to AWS and I also helped them to manage their servers.",
+    "href": "https://tracefy.com/",
+    "description": "Tracefy ran a large fleet of unmanaged servers. I migrated their infrastructure to AWS and set up proper server management.",
     "tags": [
-      "Web Application",
+      "Infrastructure",
       "AWS",
       "Digital Ocean"
     ]
   },
   {
     "image": "projects/tracefy.png",
-    "title": "Tracefy | Infrastructure AS Code",
-    "href": "#",
-    "description": "Tracefy had a old that was managed by hand. I helped them to migrate their infrastructure to IAC. This helped them to manage their infrastructure in a better way. Also, this helped them to scale their infrastructure easily.",
+    "title": "Tracefy | Infrastructure as Code",
+    "href": "https://tracefy.com/",
+    "description": "Tracefy's infrastructure was managed by hand. I migrated it to infrastructure as code with Terraform and Ansible, making it easier to manage and scale.",
     "tags": [
       "Infrastructure",
       "Terraform",
@@ -46,8 +46,8 @@
   {
     "image": "projects/tracefy.png",
     "title": "Tracefy | Socket Services",
-    "href": "#",
-    "description": "Tracefy had multiple socket service that were not dry and written in old PHP versions (5.6). I helped them to migrate their socket services to new PHP versions and also I helped them to make them dry. This helped them to scale their socket services easily.",
+    "href": "https://tracefy.com/",
+    "description": "Tracefy had multiple socket services written in legacy PHP 5.6 with lots of duplication. I migrated them to modern PHP versions and refactored them to be DRY and easy to scale.",
     "tags": [
       "Infrastructure",
       "PHP"
@@ -55,9 +55,9 @@
   },
   {
     "image": "projects/tracefy.png",
-    "title": "Tracefy | Migration docker to kubernetes",
-    "href": "#",
-    "description": "Tracefy had a lot of docker containers that were not managed by kubernetes. I helped them to migrate their docker containers to kubernetes. This helped them to manage their containers in a better way. Before this, they were managing their containers by docker swarm.",
+    "title": "Tracefy | Docker to Kubernetes Migration",
+    "href": "https://tracefy.com/",
+    "description": "Tracefy's containers were managed with Docker Swarm. I migrated the workloads to Kubernetes, giving the team better management, scaling and deployment options.",
     "tags": [
       "Infrastructure",
       "Docker",
@@ -66,9 +66,9 @@
   },
   {
     "image": "projects/tracefy.png",
-    "title": "Tracefy | Migration PHP 7.0 to PHP 8.2 and Laravel multiple versions",
-    "href": "#",
-    "description": "Tracefy had a few PHP services that were not updated to the latest PHP version. I helped them to migrate their PHP services to the latest PHP version. This helped them to use the latest PHP features. Also, I helped them to migrate their PHP services to the latest Laravel version. This helped them to use the latest Laravel features.",
+    "title": "Tracefy | PHP 7.0 to 8.2 & Laravel Upgrades",
+    "href": "https://tracefy.com/",
+    "description": "I upgraded Tracefy's PHP services from PHP 7.0 to 8.2 and brought multiple Laravel applications up to the latest version, unlocking modern language and framework features.",
     "tags": [
       "Laravel",
       "PHP"
@@ -77,18 +77,18 @@
   {
     "image": "projects/tracefy.png",
     "title": "Tracefy | Dealershop",
-    "href": "#",
-    "description": "Tracefy had a old wordpress website build on sage theme. I co developed a new dealershop in Wordpress. This helped them to manage their dealerships in a better way.",
+    "href": "https://tracefy.com/",
+    "description": "Tracefy had an old WordPress website built on the Sage theme. I co-developed a new dealer shop in WordPress, making it much easier to manage their dealerships.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP"
     ]
   },
   {
     "image": "projects/tracefy.png",
     "title": "Tracefy | Microservices",
-    "href": "#",
-    "description": "Tracefy had a few monolith applications I split them to be multiple microservices. This made them more scalable. ",
+    "href": "https://tracefy.com/",
+    "description": "I split several monolithic applications into multiple microservices, making the platform more scalable and easier to maintain.",
     "tags": [
       "Laravel",
       "Rocket",
@@ -97,20 +97,19 @@
   },
   {
     "image": "projects/tracefy.png",
-    "title": "Tracefy | Monitoring business Metrics",
-    "href": "#",
-    "description": "Tracefy had a few monitoring rules. I firstly migrated their old monitoring to influxDB for business metrics",
+    "title": "Tracefy | Business Metrics Monitoring",
+    "href": "https://tracefy.com/",
+    "description": "I migrated Tracefy's legacy monitoring to InfluxDB for business metrics, giving the team real-time insight into the platform.",
     "tags": [
-      "Laravel",
-      "Rocket",
-      "Spring"
+      "InfluxDB",
+      "Monitoring"
     ]
   },
   {
     "image": "projects/tracefy.png",
-    "title": "Tracefy | Monitoring infrastructure metrics",
-    "href": "#",
-    "description": "Tracefy had a few influx metrics to view mem and cpu usage. I migrated this to prometheus and grafana. This helped them to view their metrics in a better way. And have a good overview for their infrastructure monitoring.",
+    "title": "Tracefy | Infrastructure Metrics Monitoring",
+    "href": "https://tracefy.com/",
+    "description": "I migrated the infrastructure metrics (memory, CPU) from InfluxDB to Prometheus and Grafana, providing a clear overview of the entire infrastructure.",
     "tags": [
       "Prometheus",
       "Grafana"
@@ -118,9 +117,9 @@
   },
   {
     "image": "projects/tracefy.png",
-    "title": "Tracefy | Jasper api integration",
-    "href": "#",
-    "description": "Tracefy had a few operations that were done manually. I helped them to automate these operations by integrating their jasper api. This helped them to automate their operations and save time hours per week.",
+    "title": "Tracefy | Jasper API Integration",
+    "href": "https://tracefy.com/",
+    "description": "Many SIM management operations were done manually. I integrated the Jasper API to automate these operations, saving hours of work every week.",
     "tags": [
       "Python",
       "Jasper API"
@@ -128,280 +127,280 @@
   },
   {
     "image": "projects/bambook.png",
-    "title": "Elephant | Bambook e-commerce",
-    "href": "#",
-    "description": "When I was working at Elephant, I helped them to build a e-commerce website for Bambook. This was build in Magento 2. This helped them to sell their products online.",
+    "title": "Elephant | Bambook E-commerce",
+    "href": "https://bambook.org/",
+    "description": "At Elephant I helped build the Magento 2 e-commerce website for Bambook, the erasable notebook brand, enabling them to sell their products online.",
     "tags": [
       "Magento 2",
       "PHP",
-      "e-commerce"
+      "E-commerce"
     ]
   },
   {
     "image": "projects/the-bulldog.png",
-    "title": "Elephant | the-bulldog e-commerce",
-    "href": "#",
-    "description": "When I was working at Elephant, I helped them to build a e-commerce website for the-bulldog. This was build in wordpress with woocommerce. This helped them to sell their products online.",
+    "title": "Elephant | The Bulldog E-commerce",
+    "href": "https://thebulldog.com/",
+    "description": "At Elephant I helped build the e-commerce website for The Bulldog, the famous Amsterdam brand, using WordPress and WooCommerce.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP",
-      "e-commerce"
+      "E-commerce"
     ]
   },
   {
     "image": "projects/de-franse-alp.png",
-    "title": "Elephant | De franse alp e-commerce",
+    "title": "Elephant | De Franse Alp E-commerce",
     "href": "#",
-    "description": "When I was working at Elephant, I helped them to build a e-commerce website for De franse alp. This was build in wordpress with woocommerce.",
+    "description": "At Elephant I helped build the e-commerce website for De Franse Alp using WordPress and WooCommerce.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP",
-      "e-commerce"
+      "E-commerce"
     ]
   },
   {
     "image": "projects/heighttechnologies.png",
-    "title": "Elephant | Height technologies",
-    "href": "#",
-    "description": "https://www.heighttechnologies.com/",
+    "title": "Elephant | Height Technologies",
+    "href": "https://www.heighttechnologies.com/",
+    "description": "Corporate WordPress website for Height Technologies, built while working at Elephant.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP"
     ]
   },
   {
     "image": "projects/bij-da.png",
     "title": "Elephant | Bij Da",
-    "href": "#",
-    "description": "https://bij-da.nl/",
+    "href": "https://bij-da.nl/",
+    "description": "WordPress website for Bij Da, built while working at Elephant.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP"
     ]
   },
   {
     "image": "projects/dehora.png",
-    "title": "Elephant | Dehora Werken bij",
-    "href": "#",
-    "description": "https://bij-da.nl/",
+    "title": "Elephant | Déhora Recruitment Site",
+    "href": "https://www.dehora.nl/",
+    "description": "Recruitment website for Déhora with a Carerix integration, built while working at Elephant.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP",
-      "carerix"
+      "Carerix"
     ]
   },
   {
     "image": "projects/bosmanvanzaal.png",
-    "title": "Elephant | Bosmanvanzaal werken bij",
-    "href": "#",
-    "description": "https://jobs.bosmanvanzaal.nl/",
+    "title": "Elephant | Bosman Van Zaal Recruitment Site",
+    "href": "https://jobs.bosmanvanzaal.nl/",
+    "description": "Recruitment website for Bosman Van Zaal with a Recruit Now integration, built while working at Elephant.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP",
-      "Recruit now"
+      "Recruit Now"
     ]
   },
   {
     "image": "projects/star-group.png",
-    "title": "Elephant | Star group",
-    "href": "#",
-    "description": "https://star-specialists.com/nl/",
+    "title": "Elephant | Star Group",
+    "href": "https://star-specialists.com/nl/",
+    "description": "Corporate WordPress website for Star Group, built while working at Elephant.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP"
     ]
   },
   {
     "image": "projects/poort6.png",
     "title": "Elephant | Poort6",
-    "href": "#",
-    "description": "https://www.poort6.nl/",
+    "href": "https://www.poort6.nl/",
+    "description": "WordPress website for housing corporation Poort6 with a Woongaard API integration, built while working at Elephant.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP",
-      "woongaard api"
+      "Woongaard API"
     ]
   },
   {
     "image": "projects/raft.png",
     "title": "Elephant | Raft",
-    "href": "#",
-    "description": "https://www.raft.nl/",
+    "href": "https://www.raft.nl/",
+    "description": "Corporate WordPress website for Raft, built while working at Elephant.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP"
     ]
   },
   {
     "image": "projects/auris.png",
-    "title": "Rodesk|Webnl | Auris (Corperate website)",
-    "href": "#",
-    "description": "https://www.auris.nl/",
+    "title": "Rodesk/WebNL | Auris (Corporate Website)",
+    "href": "https://www.auris.nl/",
+    "description": "Corporate WordPress website for Auris, an organisation supporting people with hearing and communication difficulties.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP",
-      "rokit"
+      "Rokit"
     ]
   },
   {
     "image": "projects/auris-multisite.png",
-    "title": "Rodesk|Webnl | Auris (Corperate Multisite)",
-    "href": "#",
-    "description": "https://florant.nl/",
+    "title": "Rodesk/WebNL | Auris (Corporate Multisite)",
+    "href": "https://florant.nl/",
+    "description": "WordPress multisite platform for the Auris organisation, hosting multiple school and brand websites from one installation.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP",
       "Multisite",
-      "rokit"
+      "Rokit"
     ]
   },
   {
     "image": "projects/avilo.png",
-    "title": "Webnl | Avilo",
-    "href": "#",
-    "description": "https://www.avilo.nl/",
+    "title": "WebNL | Avilo",
+    "href": "https://www.avilo.nl/",
+    "description": "Corporate WordPress website for Avilo, built while working at WebNL.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP"
     ]
   },
   {
     "image": "projects/kleinhandel.png",
-    "title": "Rodesk|Webnl | Kleinhandel",
-    "href": "#",
-    "description": "https://www.kleinhandel.org/",
+    "title": "Rodesk/WebNL | Kleinhandel",
+    "href": "https://www.kleinhandel.org/",
+    "description": "WordPress website for Kleinhandel.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP"
     ]
   },
   {
     "image": "projects/wissing.png",
     "title": "Rodesk | Wissing",
-    "href": "#",
-    "description": "https://www.wissing.nl/",
+    "href": "https://www.wissing.nl/",
+    "description": "Corporate WordPress website for urban planning agency Wissing.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP"
     ]
   },
   {
     "image": "projects/forthepeople.png",
     "title": "Rodesk | For The People",
-    "href": "#",
-    "description": "https://forthepeople.nl/",
+    "href": "https://forthepeople.nl/",
+    "description": "WordPress website for creative agency For The People.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP"
     ]
   },
   {
     "image": "projects/fivoor.png",
     "title": "Rodesk | Fivoor",
-    "href": "#",
-    "description": "https://fivoor.nl/",
+    "href": "https://fivoor.nl/",
+    "description": "Corporate WordPress website for Fivoor, a specialist in forensic and intensive psychiatric care.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP"
     ]
   },
   {
     "image": "projects/webnl-rodesk.png",
-    "title": "Rodesk|Webnl | Jenkins (CI/CD) to Envoyer migratie",
+    "title": "Rodesk/WebNL | Jenkins to Envoyer Migration",
     "href": "#",
-    "description": "",
+    "description": "Migrated the deployment pipeline of dozens of client websites from Jenkins to Envoyer, making deployments faster and more reliable.",
     "tags": [
-      "Devops",
+      "DevOps",
       "CI/CD"
     ]
   },
   {
     "image": "projects/webnl.png",
-    "title": "Webnl | Server migration",
+    "title": "WebNL | Server Migration",
     "href": "#",
-    "description": "",
+    "description": "Migrated client websites to new servers with minimal downtime, including DNS, mail and deployment configuration.",
     "tags": [
-      "Devops",
+      "DevOps",
       "CI/CD"
     ]
   },
   {
     "image": "projects/brinkyland.png",
     "title": "Rodesk | Brinkyland",
-    "href": "#",
-    "description": "https://brinkyland.nl/",
+    "href": "https://brinkyland.nl/",
+    "description": "WordPress website for Brinkyland.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP"
     ]
   },
   {
     "image": "projects/realconomy.png",
     "title": "Rodesk | Realconomy",
-    "href": "#",
-    "description": "https://www.realconomy.com/",
+    "href": "https://www.realconomy.com/",
+    "description": "Corporate WordPress website for Realconomy.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP"
     ]
   },
   {
     "image": "projects/ghg.png",
     "title": "Rodesk | GHG",
-    "href": "#",
-    "description": "https://www.ghg.nl/",
+    "href": "https://www.ghg.nl/",
+    "description": "Corporate WordPress website for GHG.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP"
     ]
   },
   {
     "image": "projects/sifr.png",
     "title": "Rodesk | SIFR",
-    "href": "#",
-    "description": "https://sifr.nl/",
+    "href": "https://sifr.nl/",
+    "description": "WordPress website for SIFR.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP"
     ]
   },
   {
     "image": "projects/twtg.png",
     "title": "Rodesk | TWTG",
-    "href": "#",
-    "description": "https://www.twtg.io/",
+    "href": "https://www.twtg.io/",
+    "description": "Corporate WordPress website for industrial IoT company TWTG.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP"
     ]
   },
   {
     "image": "projects/simendo.png",
     "title": "Rodesk | Simendo",
-    "href": "#",
-    "description": "https://www.simendo.eu/",
+    "href": "https://www.simendo.eu/",
+    "description": "WordPress website for Simendo, a developer of surgical simulators.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP"
     ]
   },
   {
     "image": "projects/kinderdijk.png",
     "title": "Rodesk | Kinderdijk",
-    "href": "#",
-    "description": "https://www.kinderdijk.nl/",
+    "href": "https://www.kinderdijk.nl/",
+    "description": "WordPress website for the UNESCO World Heritage site Kinderdijk, including ticketing integration.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP"
     ]
   },
   {
     "image": "projects/faceland.png",
     "title": "Rodesk | Faceland Clinics",
-    "href": "#",
-    "description": "https://www.facelandclinic.com/",
+    "href": "https://www.facelandclinic.com/",
+    "description": "Multilingual WordPress website for Faceland Clinics.",
     "tags": [
-      "Wordpress",
+      "WordPress",
       "PHP"
     ]
   }

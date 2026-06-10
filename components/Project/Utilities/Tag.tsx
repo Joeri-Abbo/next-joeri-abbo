@@ -3,9 +3,9 @@ import ChildrenType from "../../Utilities/ChildrenType";
 const Tag = (tag: ChildrenType) => {
 
     return (
-        <div className="m-2 rounded bg-blue-500 p-1 text-sm text-white">
+        <span className="rounded-full bg-blue-500/10 px-2.5 py-1 text-xs font-medium text-blue-600 dark:bg-blue-500/20 dark:text-blue-300">
             {tag.children}
-        </div>
+        </span>
     )
 }
 export default Tag;

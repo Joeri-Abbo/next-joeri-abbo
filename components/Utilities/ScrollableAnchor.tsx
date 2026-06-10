@@ -19,7 +19,7 @@ const ScrollableAnchor = (props: Props) => {
     }, [props.id, router.asPath]);
 
     return (
-        <div id={props.id} ref={scrollTargetElementRef}>
+        <div id={props.id} ref={scrollTargetElementRef} className="scroll-mt-24">
             {props.children}
         </div>
     );

@@ -1,1 +1,66 @@
-[{"type": "course", "time": "Vandaag", "title": "AWS course", "tags": ["1.0.2", "latest"], "downloadHref": "#", "externalHref": "#", "description": "Verschillende onderdelen van AWS"}, {"type": "work", "time": "Vandaag", "title": "Gestart bij Tracefy", "tags": ["1.0.1"], "downloadHref": "#", "externalHref": "#", "description": "Verschillende onderdelen van AWS"}, {"type": "feature", "time": "Vandaag", "title": "Start DevOps Bootcamp | Tech world met Nana", "tags": ["feature/devops"], "downloadHref": "#", "externalHref": "#", "description": "Verschillende onderdelen"}]
+[
+  {
+    "type": "feature",
+    "time": "January 2026 - Present",
+    "title": "Security Lead (Seclead) @ Schuberg Philis",
+    "tags": [
+      "Security"
+    ],
+    "description": "Security lead within my sub-team: the point of contact and responsible for security within the team."
+  },
+  {
+    "type": "feature",
+    "time": "October 2024 - Present",
+    "title": "Onboarding Facilitator @ Schuberg Philis",
+    "tags": [
+      "Onboarding"
+    ],
+    "description": "Onboarding facilitator for the RTM location: facilitating sessions, hosting onboarding days and co-responsible for organising one of the SBP onboarding days."
+  },
+  {
+    "type": "work",
+    "time": "March 2024 - Present",
+    "title": "Mission Critical Engineer @ Schuberg Philis",
+    "tags": [
+      "AWS",
+      "Platform Engineering",
+      "Python"
+    ],
+    "externalHref": "https://schubergphilis.com/",
+    "description": "Building and running mission-critical infrastructure for customers where failure is not an option. Focus on AWS, serverless and platform engineering in Rotterdam."
+  },
+  {
+    "type": "work",
+    "time": "May 2023 - February 2024",
+    "title": "Lead Developer, DevOps & Cloud Architect @ Tracefy",
+    "tags": [
+      "Leadership",
+      "AWS",
+      "Terraform"
+    ],
+    "externalHref": "https://tracefy.com/",
+    "description": "Led the development team and designed the cloud architecture for Tracefy's GPS tracking platform. Responsible for technical direction, infrastructure as code and mentoring developers."
+  },
+  {
+    "type": "work",
+    "time": "April 2021 - December 2021",
+    "title": "Back-end Developer @ Elephant",
+    "tags": [
+      "PHP",
+      "Magento 2",
+      "WordPress"
+    ],
+    "description": "Developed e-commerce and corporate websites for clients such as Bambook and The Bulldog, using Magento 2, WordPress and WooCommerce."
+  },
+  {
+    "type": "work",
+    "time": "February 2019 - March 2021",
+    "title": "UX Developer @ Rodesk",
+    "tags": [
+      "WordPress",
+      "PHP",
+      "Front-end"
+    ],
+    "description": "Built custom WordPress websites for clients such as Auris, Kinderdijk and Fivoor, and migrated the CI/CD pipeline from Jenkins to Envoyer."
+  }
+]

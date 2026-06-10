@@ -1,3 +1,94 @@
 {
-  "copyright": "Alle rechten voorbehouden"
+  "copyright": "Alle rechten voorbehouden",
+  "nav": {
+    "home": "Home",
+    "timeline": "Tijdlijn",
+    "projects": "Projecten"
+  },
+  "meta": {
+    "home": {
+      "title": "Joeri Abbo | Mission Critical Engineer",
+      "description": "Joeri Abbo — Mission Critical Engineer bij Schuberg Philis. DevOps-, cloudarchitectuur- en AWS-specialist uit Nederland."
+    },
+    "timeline": {
+      "title": "Tijdlijn | Joeri Abbo",
+      "description": "Het carrièrepad van Joeri Abbo: van UX-developer naar DevOps-engineer, cloudarchitect en Mission Critical Engineer."
+    },
+    "projects": {
+      "title": "Projecten | Joeri Abbo",
+      "description": "Projecten waar Joeri Abbo aan heeft gewerkt: cloudmigraties, infrastructure as code, webapplicaties en e-commerce."
+    },
+    "notFound": {
+      "title": "404 | Joeri Abbo",
+      "description": "Deze pagina bestaat niet."
+    }
+  },
+  "hero": {
+    "subtitle": "Mission Critical Engineer @ Schuberg Philis",
+    "intro": "Ik ben een enthousiaste IT-specialist met een passie voor DevOps en cloudarchitectuur. Ik heb succesvolle projecten en teams geleid en ben gespecialiseerd in het vinden van slimme technische oplossingen.",
+    "badge": "Open voor contact",
+    "location": "Hellevoetsluis, Nederland",
+    "ctaConnect": "Maak kennis",
+    "ctaCv": "Download cv",
+    "iam": "Ik ben",
+    "roles": [
+      "een Mission Critical Engineer",
+      "een AWS-specialist",
+      "een cloudarchitect",
+      "een DevOps-engineer",
+      "een platform engineer",
+      "een full-stack developer",
+      "een hobbykok",
+      "een nerd",
+      "een Security Lead",
+      "een onboarding facilitator"
+    ]
+  },
+  "sections": {
+    "skillsTitle": "Skills & tools",
+    "skillsSubtitle": "De talen, frameworks en platforms waarmee ik dagelijks werk.",
+    "experienceTitle": "Ervaring",
+    "experienceSubtitle": "Een pad van UX-developer naar Mission Critical Engineer.",
+    "projectsTitle": "Uitgelichte projecten",
+    "projectsSubtitle": "Een selectie van werk waar ik trots op ben.",
+    "certificationsTitle": "Certificeringen & badges"
+  },
+  "skills": {
+    "languages": "Talen",
+    "frameworks": "Frameworks",
+    "cloud": "Cloud & AWS",
+    "devops": "DevOps & CI/CD",
+    "monitoring": "Monitoring & observability",
+    "databases": "Databases",
+    "os": "Besturingssystemen"
+  },
+  "timeline": {
+    "viewFull": "Bekijk volledige tijdlijn",
+    "visit": "Bekijken",
+    "loading": "Tijdlijn laden…",
+    "empty": "Geen tijdlijnitems om te tonen."
+  },
+  "projects": {
+    "viewMore": "Meer projecten",
+    "loading": "Projecten laden…",
+    "empty": "Geen projecten om te tonen."
+  },
+  "quotes": {
+    "dance": "Werken is als dansen, soms gaat het goed en soms sta je op iemands tenen",
+    "danceAuthor": "Joeri Abbo"
+  },
+  "cta": {
+    "title": "Koffietje doen?",
+    "subtitle": "Heb je een interessant project, een vraag, of wil je gewoon kletsen over tech? Ik hoor graag van je.",
+    "linkedin": "Connect op LinkedIn",
+    "email": "Stuur een e-mail"
+  },
+  "footer": {
+    "tagline": "Mission Critical Engineer · Cloud & DevOps",
+    "backToTop": "Naar boven"
+  },
+  "notFound": {
+    "message": "Oeps, deze pagina bestaat niet.",
+    "backHome": "Terug naar home"
+  }
 }

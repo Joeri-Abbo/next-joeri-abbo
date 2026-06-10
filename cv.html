@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8"/>
+<title>Curriculum Vitae - Joeri Abbo</title>
+<style>
+    * { box-sizing: border-box; }
+    body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #1f2937;
+        font-size: 12px;
+        line-height: 1.5;
+        margin: 0;
+    }
+    .header {
+        background: #1e293b;
+        color: #fff;
+        padding: 28px 36px;
+    }
+    .header h1 { margin: 0; font-size: 30px; letter-spacing: 0.5px; }
+    .header .role { color: #60a5fa; font-size: 15px; margin-top: 4px; font-weight: 600; }
+    .header .contact { margin-top: 12px; font-size: 11px; color: #cbd5e1; }
+    .header .contact span { margin-right: 14px; white-space: nowrap; }
+    .wrap { padding: 24px 36px; }
+    h2 {
+        color: #2563eb;
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 4px;
+        margin: 22px 0 12px;
+    }
+    .profile { color: #374151; }
+    .job { margin-bottom: 14px; page-break-inside: avoid; }
+    .job-head { display: flex; justify-content: space-between; align-items: baseline; }
+    .job-title { font-weight: 700; font-size: 13px; color: #111827; }
+    .job-meta { color: #6b7280; font-size: 11px; white-space: nowrap; }
+    .job-company { color: #2563eb; font-weight: 600; }
+    .job p { margin: 4px 0 0; }
+    .job ul { margin: 4px 0 0 16px; padding: 0; }
+    .job ul li { margin: 1px 0; }
+    .edu-item { margin-bottom: 8px; }
+    .edu-item .when { color: #6b7280; font-size: 11px; }
+    .cols { display: flex; flex-wrap: wrap; gap: 0 28px; }
+    .col { flex: 1; min-width: 180px; }
+    .skills h3 { font-size: 12px; margin: 12px 0 4px; color: #111827; }
+    .skills ul { margin: 0 0 0 16px; padding: 0; }
+    .skills ul li { margin: 0; }
+    .muted { color: #6b7280; }
+</style>
+</head>
+<body>
+    <div class="header">
+        <h1>Joeri Abbo</h1>
+        <div class="role">Mission Critical Engineer @ Schuberg Philis</div>
+        <div class="contact">
+            <span>&#9742; 06 - 86 296 031</span>
+            <span>&#9993; joeriabbo@hotmail.com</span>
+            <span>&#127760; joeriabbo.nl</span>
+            <span>in/joeri-abbo-43a457144</span>
+        </div>
+    </div>
+
+    <div class="wrap">
+        <h2>Profiel</h2>
+        <p class="profile">
+            Ik ben een enthousiaste IT-specialist met veel ervaring, vooral in DevOps en cloud-architectuur.
+            Ik heb succesvolle projecten en teams geleid en ben gespecialiseerd in het vinden van slimme
+            technologische oplossingen. Mijn focus ligt op AWS, infrastructure as code en het bouwen en
+            beheren van missiekritieke platformen waar betrouwbaarheid voorop staat.
+        </p>
+
+        <h2>Werkervaring</h2>
+
+        <div class="job">
+            <div class="job-head">
+                <span class="job-title"><span class="job-company">Schuberg Philis</span> &middot; Mission Critical Engineer</span>
+                <span class="job-meta">maart 2024 &ndash; heden &middot; Rotterdam</span>
+            </div>
+            <p>
+                Bouwen en beheren van missiekritieke infrastructuur voor klanten waar falen geen optie is.
+                Focus op AWS, serverless, Amazon Bedrock en platform engineering binnen een
+                multidisciplinair team.
+            </p>
+            <ul>
+                <li>
+                    <strong>Onboarding facilitator</strong> voor de RTM-locatie (sinds oktober 2024):
+                    sessies faciliteren, onboarding-dagen hosten en (mede)verantwoordelijk voor de
+                    organisatie van een van de SBP onboarding-dagen.
+                </li>
+                <li>
+                    <strong>Seclead</strong> binnen mijn subteam (sinds januari 2026):
+                    aanspreekpunt en verantwoordelijk voor security binnen het team.
+                </li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-head">
+                <span class="job-title"><span class="job-company">Tracefy</span> &middot; Lead Developer, DevOps &amp; Cloud Architect</span>
+                <span class="job-meta">mei 2023 &ndash; februari 2024 &middot; Rijswijk</span>
+            </div>
+            <p>
+                Leiding gegeven aan een team developers en de cloudarchitectuur ontworpen voor het
+                GPS-trackingplatform. Verantwoordelijk voor de technische koers, infrastructure as code
+                en het meedenken over implementaties van nieuwe features.
+            </p>
+        </div>
+
+        <div class="job">
+            <div class="job-head">
+                <span class="job-title"><span class="job-company">Tracefy</span> &middot; DevOps &amp; Cloud Engineer</span>
+                <span class="job-meta">oktober 2022 &ndash; april 2023</span>
+            </div>
+            <p>
+                De infrastructuur van Tracefy samen met collega's vanaf de grond opnieuw opgebouwd.
+                Veel onderdelen vernieuwd in moderne frameworks en talen, of volledig gerefactored zodat
+                ze efficiënter werkten. Infrastructure as code geïntroduceerd met Terraform en Ansible en
+                workloads gemigreerd van Docker Swarm naar Kubernetes.
+            </p>
+        </div>
+
+        <div class="job">
+            <div class="job-head">
+                <span class="job-title"><span class="job-company">Tracefy</span> &middot; Back-end Developer</span>
+                <span class="job-meta">januari 2022 &ndash; september 2022</span>
+            </div>
+            <p>
+                Het bestaande platform ontwikkeld en doorontwikkeld. Interne API's gebouwd in Laravel en
+                PHP en managementscripts geschreven in Python.
+            </p>
+        </div>
+
+        <div class="job">
+            <div class="job-head">
+                <span class="job-title"><span class="job-company">Elephant</span> &middot; Back-end Developer</span>
+                <span class="job-meta">april 2021 &ndash; december 2021</span>
+            </div>
+            <p>Nieuwe projecten gedraaid en support verzorgd voor klanten, met opdrachten van 2 tot 160 uur:</p>
+            <ul>
+                <li>Ontwikkelen en doorontwikkelen van WordPress-projecten</li>
+                <li>Ontwikkelen en doorontwikkelen van een Magento 2-project</li>
+                <li>Ontwikkelen en doorontwikkelen van Laravel-projecten</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-head">
+                <span class="job-title"><span class="job-company">Rodesk</span> &middot; UX Developer</span>
+                <span class="job-meta">februari 2019 &ndash; maart 2021</span>
+            </div>
+            <p>
+                Meegedacht met nieuwe aanpassingen voor klanten en direct contact gehad met klanten zoals
+                Kinderdijk. In het laatste jaar verantwoordelijk geworden voor de servers van de websites,
+                waardoor ik veel leerde over Plesk, DirectAdmin en Ubuntu-servers.
+            </p>
+            <ul>
+                <li>Ontwikkelen en doorontwikkelen van WordPress- en Laravel-projecten</li>
+                <li>Servers onderhouden</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-head">
+                <span class="job-title"><span class="job-company">WebNL</span> &middot; Web Developer</span>
+                <span class="job-meta">juni 2018 &ndash; januari 2019</span>
+            </div>
+            <p>
+                Gewerkt als web developer met affiniteit voor servers. Meer dan 200 klanten gemigreerd van
+                de ene naar de andere server en meegedraaid in het supportteam.
+            </p>
+            <ul>
+                <li>Ontwikkelen en doorontwikkelen van WordPress-, Zend- en Laravel-projecten</li>
+                <li>Servers onderhouden en migreren</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-head">
+                <span class="job-title"><span class="job-company">WebNL</span> &middot; Stage (eindstage)</span>
+                <span class="job-meta">januari 2018 &ndash; juni 2018</span>
+            </div>
+            <p>Eindstage voor de opleiding: gewerkt aan het schoolproject en meegedraaid met support.</p>
+        </div>
+
+        <div class="job">
+            <div class="job-head">
+                <span class="job-title"><span class="job-company">o1GROUP</span> &middot; Stage</span>
+                <span class="job-meta">oktober 2016 &ndash; augustus 2017</span>
+            </div>
+            <p>Eerste stage, met daarna nog enkele kleine projecten voor dit bedrijf.</p>
+        </div>
+
+        <h2>Opleiding</h2>
+        <div class="edu-item">
+            <span class="job-company">TechWorld with Nana</span> &middot; Certified DevOps Practitioner
+            <span class="when">(2022 &ndash; 2023)</span>
+        </div>
+        <div class="edu-item">
+            <span class="job-company">Ictrainingen</span> &middot; Develop yourself from Developer to Software Architect
+            <span class="when">(2022)</span>
+        </div>
+        <div class="edu-item">
+            <span class="job-company">ROC Zadkine, Spijkenisse</span> &middot; ICT applicatie- en mediaontwikkelaar, MBO niveau 4
+            <span class="when">(2015 &ndash; 2018)</span>
+        </div>
+
+        <h2>Persoonlijke eigenschappen</h2>
+        <p class="profile">
+            Ik ben een doorzetter die graag resultaat ziet, een perfectionist en hou van nieuwe dingen
+            leren en doen. Ik zoek dingen graag tot de bodem uit, heb een grote affiniteit voor Raspberry Pi's
+            en open source, en vind het leuk om processen te automatiseren. Als teamspeler zie ik graag groei,
+            niet alleen bij mezelf maar ook in het team.
+        </p>
+
+        <h2>Vaardigheden</h2>
+        <div class="cols skills">
+            <div class="col">
+                <h3>Talen</h3>
+                <ul>
+                    <li>PHP</li><li>Python</li><li>Java</li><li>TypeScript</li>
+                    <li>JavaScript</li><li>Go</li><li>Rust</li><li>Bash</li><li>SASS / CSS / HTML</li>
+                </ul>
+                <h3>Frontend frameworks</h3>
+                <ul>
+                    <li>React</li><li>Next.js</li><li>Vue</li><li>jQuery</li>
+                    <li>Tailwind</li><li>Bootstrap</li>
+                </ul>
+                <h3>Backend frameworks / CMS</h3>
+                <ul>
+                    <li>Laravel</li><li>Java Spring</li><li>Echo (Go)</li><li>Rocket (Rust)</li>
+                    <li>Flask</li><li>Django</li>
+                    <li>WordPress (thema's, plugins, WooCommerce, Polylang, multisites)</li>
+                    <li>Magento 2 (basis)</li><li>Zend 1.12 t/m 3.0</li>
+                </ul>
+                <h3>Databases</h3>
+                <ul>
+                    <li>MySQL</li><li>PostgreSQL</li><li>MongoDB</li><li>Redis</li><li>DynamoDB</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Cloud &amp; AWS</h3>
+                <ul>
+                    <li>AWS</li><li>Lambda</li><li>Amazon Bedrock</li><li>S3</li>
+                    <li>SQS / SNS</li><li>ECS</li><li>EKS</li>
+                    <li>Digital Ocean</li><li>Linode</li><li>Cloudflare</li>
+                </ul>
+                <h3>DevOps &amp; CI/CD</h3>
+                <ul>
+                    <li>Docker</li><li>Kubernetes (k3s/k8s)</li><li>Helm</li><li>ArgoCD</li>
+                    <li>Terraform</li><li>Ansible</li>
+                    <li>GitHub Actions</li><li>GitLab CI</li><li>Bitbucket Pipelines</li>
+                    <li>Jenkins</li><li>Envoyer</li><li>SonarQube</li>
+                </ul>
+                <h3>Monitoring &amp; observability</h3>
+                <ul>
+                    <li>Prometheus</li><li>Grafana</li><li>InfluxDB</li>
+                    <li>Datadog</li><li>CloudWatch</li><li>Sentry</li>
+                </ul>
+                <h3>Besturingssystemen &amp; tools</h3>
+                <ul>
+                    <li>macOS</li><li>Linux</li>
+                    <li>CentOS (6, 7, 8, 9)</li><li>Rocky Linux</li><li>Ubuntu (16, 18, 20, 22)</li>
+                    <li>Debian</li><li>Alpine</li><li>Windows Server</li>
+                    <li>JetBrains IDE's</li><li>Tower</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

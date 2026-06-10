@@ -1,22 +1,21 @@
-import Head from 'next/head'
+import {useTranslation} from "react-i18next";
 import Layout from "../sections/Layout";
+import Seo from "../components/Seo";
 import Projects from "../components/Project/Projects";
-import i18n from "i18next";
+import SectionTitle from "../components/Utilities/SectionTitle";
 
-export default function Home() {
+export default function ProjectsPage() {
+    const {t, i18n} = useTranslation();
+
     return (
-        <>
-            <Layout>
-                <Head>
-                    <title>Projects | Joeri Abbo</title>
-                    <meta name="description" content="Een pad van UX developer naar Devops en Cloud engineer"/>
-                    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                    <link rel="icon" href="/favicon.ico"/>
-                </Head>
-                <main className="">
-                    <Projects src={"/rest/" + i18n.language + "/projects.json"}/>
-                </main>
-            </Layout>
-        </>
+        <Layout>
+            <Seo title={t('meta.projects.title')} description={t('meta.projects.description')} path="/projects"/>
+            <main>
+                <SectionTitle subtitle={t('sections.projectsSubtitle')}>
+                    {t('sections.projectsTitle')}
+                </SectionTitle>
+                <Projects src={"/rest/" + i18n.language + "/projects.json"}/>
+            </main>
+        </Layout>
     )
 }

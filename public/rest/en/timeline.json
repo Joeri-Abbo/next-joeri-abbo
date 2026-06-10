@@ -1,36 +1,129 @@
 [
   {
-    "type": "course",
-    "time": "Vandaag",
-    "title": "AWS course",
+    "type": "feature",
+    "time": "January 2026 - Present",
+    "title": "Security Lead (Seclead) @ Schuberg Philis",
     "tags": [
-      "1.0.2",
-      "latest"
+      "Security"
     ],
-    "downloadHref": "#",
-    "externalHref": "#",
-    "description": "Verschillende onderdelen van AWS"
-  },
-  {
-    "type": "work",
-    "time": "Vandaag",
-    "title": "Gestart bij Tracefy",
-    "tags": [
-      "1.0.1"
-    ],
-    "downloadHref": "#",
-    "externalHref": "#",
-    "description": "Verschillende onderdelen van AWS"
+    "description": "Security lead within my sub-team: the point of contact and responsible for security within the team."
   },
   {
     "type": "feature",
-    "time": "Vandaag",
-    "title": "Start DevOps Bootcamp | Tech world met Nana",
+    "time": "October 2024 - Present",
+    "title": "Onboarding Facilitator @ Schuberg Philis",
     "tags": [
-      "feature/devops"
+      "Onboarding"
     ],
-    "downloadHref": "#",
-    "externalHref": "#",
-    "description": "Verschillende onderdelen"
+    "description": "Onboarding facilitator for the RTM location: facilitating sessions, hosting onboarding days and co-responsible for organising one of the SBP onboarding days."
+  },
+  {
+    "type": "work",
+    "time": "March 2024 - Present",
+    "title": "Mission Critical Engineer @ Schuberg Philis",
+    "tags": [
+      "AWS",
+      "Platform Engineering",
+      "Python"
+    ],
+    "externalHref": "https://schubergphilis.com/",
+    "description": "Building and running mission-critical infrastructure for customers where failure is not an option. Focus on AWS, serverless and platform engineering in Rotterdam."
+  },
+  {
+    "type": "work",
+    "time": "May 2023 - February 2024",
+    "title": "Lead Developer, DevOps & Cloud Architect @ Tracefy",
+    "tags": [
+      "Leadership",
+      "AWS",
+      "Terraform"
+    ],
+    "externalHref": "https://tracefy.com/",
+    "description": "Led the development team and designed the cloud architecture for Tracefy's GPS tracking platform. Responsible for technical direction, infrastructure as code and mentoring developers."
+  },
+  {
+    "type": "work",
+    "time": "October 2022 - April 2023",
+    "title": "DevOps & Cloud Engineer @ Tracefy",
+    "tags": [
+      "AWS",
+      "Kubernetes",
+      "CI/CD"
+    ],
+    "externalHref": "https://tracefy.com/",
+    "description": "Migrated infrastructure to AWS, introduced infrastructure as code with Terraform and Ansible, and moved container workloads from Docker Swarm to Kubernetes."
+  },
+  {
+    "type": "work",
+    "time": "January 2022 - September 2022",
+    "title": "Back End Developer @ Tracefy",
+    "tags": [
+      "PHP",
+      "Laravel",
+      "Microservices"
+    ],
+    "externalHref": "https://tracefy.com/",
+    "description": "Built backend services for the fleet management platform: a Laravel backoffice, microservices and integrations that automated manual operations."
+  },
+  {
+    "type": "work",
+    "time": "April 2021 - December 2021",
+    "title": "Back-end Developer @ Elephant",
+    "tags": [
+      "PHP",
+      "Magento 2",
+      "WordPress"
+    ],
+    "description": "Developed e-commerce and corporate websites for clients such as Bambook and The Bulldog, using Magento 2, WordPress and WooCommerce."
+  },
+  {
+    "type": "work",
+    "time": "February 2019 - March 2021",
+    "title": "UX Developer @ Rodesk",
+    "tags": [
+      "WordPress",
+      "PHP",
+      "Front-end"
+    ],
+    "description": "Built custom WordPress websites for clients such as Auris, Kinderdijk and Fivoor, and migrated the CI/CD pipeline from Jenkins to Envoyer."
+  },
+  {
+    "type": "work",
+    "time": "January 2018 - March 2021",
+    "title": "Developer @ WebNL creative studios",
+    "tags": [
+      "WordPress",
+      "PHP",
+      "DevOps"
+    ],
+    "description": "Developed websites and web applications in Stellendam, and carried out server migrations and CI/CD improvements."
+  },
+  {
+    "type": "work",
+    "time": "October 2016 - August 2017",
+    "title": "Developer @ o1GROUP",
+    "tags": [
+      "PHP",
+      "Web Development"
+    ],
+    "description": "First steps as a professional developer, building websites and web applications."
+  },
+  {
+    "type": "feature",
+    "time": "November 2015 - June 2018",
+    "title": "Student council secretary @ Zadkine",
+    "tags": [
+      "Soft Skills"
+    ],
+    "description": "Represented students as secretary of the student council during my studies."
+  },
+  {
+    "type": "course",
+    "time": "2015 - 2018",
+    "title": "Application & Media Developer @ Zadkine",
+    "tags": [
+      "Education"
+    ],
+    "description": "Vocational education (MBO) in application and media development, the foundation of my career as a developer."
   }
 ]

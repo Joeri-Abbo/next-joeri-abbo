@@ -10,15 +10,6 @@ type Props = {
 const Layout = (props: Props) => {
     return (
         <>
-            <div className={'bg-black'}>
-                <div className={'container mx-auto'}>
-                    <div className={'flex justify-between items-center py-2'}>
-                        <div className={'text-white text-sm'}>
-                            <span className={'font-bold'}>WIP</span> - This website is still under construction. 🏗️
-                        </div>
-                    </div>
-                </div>
-            </div>
             <ScrollableAnchor id="top"/>
             <Header/>
             <Main>

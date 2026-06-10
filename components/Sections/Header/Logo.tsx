@@ -3,14 +3,14 @@ import Image from "next/image";
 
 const Logo = () => {
     return (
-        <Link href="/" className="flex items-center space-x-1 text-blue-500">
-            <Image src="/hero.jpeg" className="mr-4 h-12 w-12 rounded-full object-cover object-left"
-                   alt="Me"
+        <Link href="/" className="group flex items-center gap-3">
+            <Image src="/hero.jpeg"
+                   className="h-10 w-10 rounded-full object-cover object-left ring-2 ring-blue-500/40 transition-transform group-hover:scale-105"
+                   alt="Joeri Abbo"
                    width="50" height="50"/>
-            <span className="my-2 ml-8 whitespace-nowrap font-sans text-3xl font-bold tracking-tight">
+            <span className="text-gradient whitespace-nowrap text-xl font-bold tracking-tight sm:text-2xl">
                 Joeri Abbo
             </span>
-
         </Link>
     )
 }

@@ -10,7 +10,7 @@ type Tags = {
 
 const Tags = (props: Tags) => {
     return (
-        <div className="flex">
+        <div className="flex flex-wrap gap-2">
             {props.tags.map((tag: any, index: React.Key | null | undefined) => (
                 <Tag key={index}>
                     {tag}

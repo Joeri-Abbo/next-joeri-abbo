@@ -1,1 +1,35 @@
-[{"image": "projects/raac.png", "title": "RAAC | Website", "href": "#", "description": "RAAC is a company founded in 2012 that provides consultancy and auditing services while maintaining a commitment to quality, reliability, and creativity. We custom made a Next.js website for this client.", "tags": ["Corporate Website", "NextJS", "Static Website"]}, {"image": "projects/tracefy.png", "title": "Tracefy | Backoffice", "href": "#", "description": "Tracefy is a company providing a platform for fleet management and tracking. I made a Laravel backoffice for this client. This application is used by the company's employees to automate their processes.", "tags": ["Web Application", "Laravel", "Laravel Livewire"]}, {"image": "projects/tracefy.png", "title": "Tracefy | Infrastructure Migration", "href": "#", "description": "Tracefy had a problem with their infrastructure. They had a lot of servers and they were not able to manage them. I helped them to migrate their infrastructure to AWS and I also helped them to manage their servers.", "tags": ["Web Application", "AWS", "Digital Ocean"]}]
+[
+  {
+    "image": "projects/tracefy.png",
+    "title": "Tracefy | Cloud & Infrastructuur",
+    "href": "https://tracefy.com/",
+    "description": "Het fleet-trackingplatform van Tracefy gemigreerd naar AWS, infrastructure as code geïntroduceerd met Terraform en workloads verhuisd van Docker Swarm naar Kubernetes.",
+    "tags": [
+      "AWS",
+      "Terraform",
+      "Kubernetes"
+    ]
+  },
+  {
+    "image": "projects/raac.png",
+    "title": "RAAC | Website",
+    "href": "#",
+    "description": "Een maatwerk statische Next.js-website voor RAAC, een consultancy- en auditbureau met oog voor kwaliteit, betrouwbaarheid en creativiteit.",
+    "tags": [
+      "NextJS",
+      "Static Website",
+      "Corporate Website"
+    ]
+  },
+  {
+    "image": "projects/bambook.png",
+    "title": "Elephant | Bambook e-commerce",
+    "href": "https://bambook.org/",
+    "description": "Een Magento 2 e-commercewebsite voor Bambook, het uitwisbare notitieboekmerk, zodat zij hun producten online konden verkopen.",
+    "tags": [
+      "Magento 2",
+      "PHP",
+      "E-commerce"
+    ]
+  }
+]
