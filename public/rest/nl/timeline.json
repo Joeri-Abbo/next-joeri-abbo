@@ -1,6 +1,15 @@
 [
   {
     "type": "feature",
+    "time": "Oktober 2026 - Present",
+    "title": "Tech Lead @ Schuberg Philis",
+    "tags": [
+      "Leadership"
+    ],
+    "description": "Tech lead binnen mijn subteam: aanspreekpunt en verantwoordelijk voor operaties binnen het team."
+  },
+  {
+    "type": "feature",
     "time": "Januari 2026 - Heden",
     "title": "Security Lead (Seclead) @ Schuberg Philis",
     "tags": [
